@@ -12,6 +12,7 @@ export const data: TalentData = {
     background: backgrounds["balance"],
     icon: icons["spell_nature_starfall"],
     talents: {
+      
       "Starlight Wrath": {
         name: "Starlight Wrath",
         pos: "a1",
@@ -26,6 +27,7 @@ export const data: TalentData = {
           0.5,
         ]} sec.`,
       },
+      
       "Improved Moonfire": {
         name: "Improved Moonfire",
         pos: "a2",
@@ -38,6 +40,7 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
+      
       "Cycle of Life": {
         name: "Cycle of Life",
         pos: "a3",
@@ -49,6 +52,7 @@ export const data: TalentData = {
           100,
         ]}% chance to gain a 100% bonus to your Spirit after killing a target that yields experience or honor. This effect also allows 50% of your Mana Regeneration to continue while casting. Lasts 15 seconds.`,
       },
+      
       "Mighty Roots": {
         name: "Mighty Roots",
         pos: "b1",
@@ -61,6 +65,7 @@ export const data: TalentData = {
           100,
         ]}%.`,
       },
+      
       "Natural Weapons": {
         name: "Natural Weapons",
         pos: "b2",
@@ -75,6 +80,7 @@ export const data: TalentData = {
           5,
         ]}%.`,
       },
+      
       "Unity With Nature": {
         name: "Unity With Nature",
         pos: "b3",
@@ -91,6 +97,7 @@ export const data: TalentData = {
           15,
         ]}%.`,
       },
+      
       "Improved Faerie Fire": {
         name: "Improved Faerie Fire",
         pos: "c1",
@@ -103,6 +110,7 @@ export const data: TalentData = {
           30,
         ]}%.`,
       },
+      
       "Hurricane": {
         name: "Hurricane",
         pos: "c3",
@@ -111,6 +119,7 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Creates a violent storm in the target area causing 27 Nature damage to enemies every 1 sec, slowing their movement speed by 50% and silencing them. Lasts 10 sec.`,
       },
+      
       "Starfall": {
         name: "Starfall",
         pos: "c4",
@@ -125,6 +134,7 @@ export const data: TalentData = {
           20,
         ]} sec.`,
       },
+      
       "Omnipresence": {
         name: "Omnipresence",
         pos: "d1",
@@ -139,6 +149,7 @@ export const data: TalentData = {
           4,
         ]}%.`,
       },
+      
       "Vengeance": {
         name: "Vengenace",
         pos: "d2",
@@ -161,6 +172,7 @@ export const data: TalentData = {
           35,
         ]}%.`,
       },
+      
       "Power of Nature": {
         name: "Power of Nature",
         pos: "d3",
@@ -175,6 +187,7 @@ export const data: TalentData = {
           4,
         ]}.`,
       },
+      
       "Dreamstate": {
         name: "Dreamstate",
         pos: "e1",
@@ -187,6 +200,7 @@ export const data: TalentData = {
           3,
         ]}% of your total Mana every 10 seconds`,
       },
+      
       "Moonkin Form": {
         name: "Moonkin Form",
         pos: "e2",
@@ -195,6 +209,7 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Transforms the Druid into Moonkin Form, increasing spell damage by up to 20% of your total intellect and armor contribution from items by 360%. The Moonkin can only cast Balance spells while shapeshifted.\n\nThe act of shapeshifting frees the caster of Polymorph and Movement Impairing effects.`,
       },
+      
       "Nature's Grace": {
         name: "Nature's Grace",
         pos: "e3",
@@ -203,6 +218,7 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`All spell criticals grace you with a blessing of nature, reducing the casting time of your next spell by 0.5 sec.`,
       },
+      
       "Moonglow":{
         name: "Moonglow",
         pos: "e4",
@@ -215,6 +231,7 @@ export const data: TalentData = {
           15,
         ]}%.`
       },
+      
       "Moonfury": {
         name: "Moonfury",
         pos: "f1",
@@ -229,6 +246,7 @@ export const data: TalentData = {
           10,
         ]}%`,
       },
+      
       "Nature Balancer": {
         name: "Nature Balancer",
         pos: "f3",
@@ -251,10 +269,11 @@ export const data: TalentData = {
           25,
         ]}% chance to increase critical strike chance of your next Wrath by 30%`
       },
+      
       "Moonkin Aura": {
         name: "Moonkin Aura",
         pos: "g2",
-        icon: icons["spell_nature_forceofnature"],
+        icon: icons["spell_nature_moonglow"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Moonkin Form",
@@ -268,9 +287,10 @@ export const data: TalentData = {
     background: backgrounds["feral"],
     icon: icons["ability_racial_bearform"],
     talents: {
-      Ferocity: {
+      
+      "Ferocity": {
         name: "Ferocity",
-        pos: "a2",
+        pos: "a1",
         icon: icons["ability_hunter_pet_hyena"],
         maxRank: 5,
         reqPoints: 0,
@@ -282,40 +302,52 @@ export const data: TalentData = {
           5,
         ]} Rage or Energy.`,
       },
+      
       "Feral Aggression": {
         name: "Feral Aggression",
-        pos: "a3",
+        pos: "a2",
         icon: icons["ability_druid_demoralizingroar"],
-        maxRank: 5,
+        maxRank: 2,
         reqPoints: 0,
-        description: talentText`Increases the Attack Power reduction of your Demoralizing Roar by ${[
-          8,
-          16,
-          24,
-          32,
-          40,
+        description: talentText`Increases the effectiveness of your Demoralizing Roar by ${[
+          20,
+          40
         ]}% and the damage caused by your Ferocious Bite by ${[
-          3,
-          6,
-          9,
-          12,
+          5,
+          10,
+        ]}%.`,
+      },
+      
+      "Thick Hide": {
+        name: "Thick Hide",
+        pos: "a3",
+        icon: icons["inv_misc_pelt_bear_03"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases your Armor contribution from items by ${[
+          5,
+          10,
           15,
         ]}%.`,
       },
-      "Feral Instinct": {
-        name: "Feral Instinct",
+      
+      "Primal Tenacity": {
+        name: "Primal Tenacity",
         pos: "b1",
-        icon: icons["ability_ambush"],
-        maxRank: 5,
+        icon: icons["primal_tenacity"],
+        maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases the threat caused in Bear and Dire Bear forms by ${[
-          3,
-          6,
-          9,
-          12,
+        description: talentText`Increases your chance to resist Stun and Fear effects by an additional ${[
+          5,
+          10,
           15,
-        ]}% and reduces the chance enemies have to detect you while Prowling.`,
+        ]}% and reduces the cooldown of your Enrage by ${[
+          10,
+          20,
+          30,
+        ]} sec.`,
       },
+      
       "Brutal Impact": {
         name: "Brutal Impact",
         pos: "b2",
@@ -323,24 +355,38 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 5,
         description: talentText`Increases the stun duration of your Bash and Pounce abilities by ${[
-          0.5,
           1,
+          2,
         ]} sec.`,
       },
-      "Thick Hide": {
-        name: "Thick Hide",
+      
+      "Sharpened Claws": {
+        name: "Sharpened Claws",
         pos: "b3",
-        icon: icons["inv_misc_pelt_bear_03"],
-        maxRank: 5,
+        icon: icons["inv_misc_monsterclaw_04"],
+        maxRank: 3,
         reqPoints: 5,
-        description: talentText`Increases your Armor contribution from items by ${[
+        description: talentText`Increases your critical strike chance while in Bear, Dire Bear or Cat Form by ${[
           2,
           4,
           6,
-          8,
-          10,
         ]}%.`,
       },
+      
+      "Primal Fury": {
+        name: "Primal Fury",
+        pos: "b4",
+        icon: icons["ability_racial_cannibalize"],
+        maxRank: 2,
+        reqPoints: 5,
+        prereq: "Sharpened Claws",
+        arrows: [{ dir: "right", from: "b3", to: "b4" }],
+        description: talentText`Gives you a ${[
+          50,
+          100,
+        ]}% chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.`,
+      },
+      
       "Feline Swiftness": {
         name: "Feline Swiftness",
         pos: "c1",
@@ -351,10 +397,11 @@ export const data: TalentData = {
           15,
           30,
         ]}% while outdoors in Cat Form and increases your chance to dodge while in Cat Form by ${[
-          2,
-          4,
+          3,
+          6,
         ]}%.`,
       },
+      
       "Feral Charge": {
         name: "Feral Charge",
         pos: "c2",
@@ -363,70 +410,86 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Causes you to charge an enemy, immobilizing and interrupting any spell being cast for 4 sec.`,
       },
-      "Sharpened Claws": {
-        name: "Sharpened Claws",
-        pos: "c3",
-        icon: icons["inv_misc_monsterclaw_04"],
-        maxRank: 2,
-        reqPoints: 10,
-        description: talentText`Increases your critical strike chance while in Bear, Dire Bear or Cat Form by ${[
-          2,
-          4,
-          6,
-        ]}%.`,
-      },
-      "Improved Shred": {
-        name: "Improved Shred",
-        pos: "d1",
-        icon: icons["spell_shadow_vampiricaura"],
-        maxRank: 2,
-        reqPoints: 15,
-        description: talentText`Reduces the Energy cost of your Shred ability by ${[
-          6,
-          12,
-        ]}.`,
-      },
-      "Predatory Strikes": {
-        name: "Predatory Strikes",
-        pos: "d2",
-        icon: icons["ability_hunter_pet_cat"],
-        maxRank: 3,
-        reqPoints: 15,
-        description: talentText`Increases your attack power in Cat, Bear and Dire Bear Forms by ${[
-          50,
-          100,
-          150,
-        ]}% of your level.`,
-      },
+      
       "Blood Frenzy": {
         name: "Blood Frenzy",
-        pos: "d3",
+        pos: "c3",
         icon: icons["ability_ghoulfrenzy"],
         maxRank: 2,
-        reqPoints: 15,
+        reqPoints: 10,
         prereq: "Sharpened Claws",
-        arrows: [{ dir: "down", from: "c3", to: "d3" }],
+        arrows: [{ dir: "down", from: "b3", to: "c3" }],
         description: talentText`Your critial strikes from Cat Form abilities that add combo points have a ${[
           50,
           100,
         ]}% chance to add an additional combo point.`,
       },
-      "Primal Fury": {
-        name: "Primal Fury",
-        pos: "d4",
-        icon: icons["ability_racial_cannibalize"],
+      
+      "Leap": {
+        name: "leap",
+        pos: "c4",
+        icon: icons["leap"],
+        maxRank: 1,
+        reqPoints: 10,
+        description: talentText`Remove all movement impairing effects and leap forward. The distance you leap is highly dependent on the terrain.`,
+      },
+      
+      "Feral Instinct": {
+        name: "Feral Instinct",
+        pos: "d1",
+        icon: icons["ability_ambush"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`Increases the threat caused in Bear and Dire Bear Form by ${[
+          5,
+          10,
+          15,
+        ]}%, reduces the chance enemies have to detect you while Prowling and increases the duration of your Tiger's Fury and Challenging Roar abilities by ${[
+          3,
+          6,
+          9,
+        ]} sec.`,
+      },
+      
+      "Stalking": {
+        name: "Stalking",
+        pos: "d2",
+        icon: icons["spell_shadow_vampiricaura"],
         maxRank: 2,
         reqPoints: 15,
-        prereq: "Sharpened Claws",
-        arrows: [
-          { dir: "right-down", from: "c3", to: "c4" },
-          { dir: "right-down-down", from: "c4", to: "d4" },
-        ],
-        description: talentText`Gives you ${[
-          50,
-          100,
-        ]} chance to gain an additional 5 Rage anytime you get a critical strike while in Bear and Dire Bear Form.`,
+        description: talentText`Increases the critical strike chance of your Ravage and Shred abilities by ${[
+          15,
+          30,
+        ]}%.`,
       },
+      
+      "Heart of the Wild": {
+        name: "Heart of the Wild",
+        pos: "d3",
+        icon: icons["spell_holy_blessingofagility"],
+        maxRank: 5,
+        reqPoints: 25,
+        description: talentText`Increases your Intellect and Spirit by ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}%. In addition, while in Bear or Dire Bear Form your Stamina is increased by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}% and while in Cat Form your Strength is increased by ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}%.`,
+      },
+      
       "Savage Fury": {
         name: "Savage Fury",
         pos: "e1",
@@ -438,49 +501,84 @@ export const data: TalentData = {
           20,
         ]}%.`,
       },
-      "Faerie Fire (Feral)": {
-        name: "Faerie Fire (Feral)",
+      
+      "Predatory Strikes": {
+        name: "Predatory Strikes",
+        pos: "e2",
+        icon: icons["ability_hunter_pet_cat"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Increases your attack power in Cat, Bear and Dire Bear Forms by ${[
+          100,
+          200,
+          300,
+        ]}% of your level. Also, causes your attacks to ignore up to ${[
+          100,
+          200,
+          300,
+        ]} of your target's Armor. The amount of armor reduced scales with your level.`,
+      },
+      
+      "Untamed Heart": {
+        name: "Untamed Heart",
         pos: "e3",
-        icon: icons["spell_nature_faeriefire"],
+        icon: icons["untamed_heart"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Decrease the armor of the target by 175 for 40 sec. While affected, the target cannot stealth or turn invisible.`,
+        prereq: "Heart of the Wild",
+        arrows: [{ dir: "down", from: "d3", to: "c3" },],
+        description: talentText`Heal yourself for 30% of your maximum health, and increases your maximum health by 30% for 20 sec.`,
       },
-      "Heart of the Wild": {
-        name: "Heart of the Wild",
+      
+      "Killer Instincts": {
+        name: "Killer Instincts",
         pos: "f2",
-        icon: icons["spell_holy_blessingofagility"],
+        icon: icons["killer_instincts"],
         maxRank: 5,
         reqPoints: 25,
-        prereq: "Predatory Strikes",
-        arrows: [{ dir: "down", from: "d2", to: "f2" }],
-        description: talentText`Increases your Intellect by ${[
+        description: talentText`Increases all damage caused by ${[
+          1,
+          2,
+          3,
           4,
-          8,
-          12,
-          16,
+          5,
+        ]}%. In addition, your melee critical strikes will increase yout attack speed by ${[
+          10,
+          15,
           20,
-        ]}%. In addition, while in Bear or Dire Bear Form your Stamina is increased by ${[
-          4,
-          8,
-          12,
-          16,
-          20,
-        ]}% and while in Cat Form your Strength is increased by ${[
-          4,
-          8,
-          12,
-          16,
-          20,
-        ]}%.`,
+          25,
+          30,
+        ]}% for your next 2 attacks.`,
       },
+      
+      "Survival Instincts": {
+        name: "Survival Instincts",
+        pos: "f3",
+        icon: icons["survival_instincts"],
+        maxRank: 5,
+        reqPoints: 25,
+        description: talentText`Reduces the chance you'll be critically hit by melee attacks by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%. In addition, your critical strikes restore ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}% of your maximum health. This effect can only occur once every 5 sec.`
+      },
+
       "Leader of the Pack": {
         name: "Leader of the Pack",
         pos: "g2",
         icon: icons["spell_nature_unyeildingstamina"],
         maxRank: 1,
         reqPoints: 30,
-        description: talentText`While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 45 yards by 3%`,
+        description: talentText`While in Cat, Bear or Dire Bear Form, the Leader of the Pack increases ranged and melee critical chance of all party members within 20 yards by 3%`,
       },
     },
   },
@@ -489,36 +587,62 @@ export const data: TalentData = {
     background: backgrounds["restoration"],
     icon: icons["spell_nature_healingtouch"],
     talents: {
-      "Improved Mark of the Wild": {
-        name: "Improved Mark of the Wild",
+      
+      "Accuracy": {
+        name: "Accuracy",
+        pos: "a1",
+        icon: icons["accuracy"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Increases your chance to hit with all attacks and spells by ${[
+          1,
+          2,
+          3,
+        ]}%.`
+      },
+
+      "Nature's Focus": {
+        name: "Nature's Focus",
         pos: "a2",
-        icon: icons["spell_nature_regeneration"],
+        icon: icons["spell_nature_healingwavegreater"],
         maxRank: 5,
         reqPoints: 0,
-        description: talentText`Increases the effects of your Mark of the Wild and Gift of the Wild spells by ${[
-          7,
-          14,
-          21,
-          28,
-          35,
-        ]}%.`,
+        description: talentText`Gives you a ${[
+          15,
+          30,
+          45,
+          60,
+          75,
+        ]}% chance to avoid interruption caused by damage while casting.`,
       },
-      Furor: {
+
+      "Furor": {
         name: "Furor",
         pos: "a3",
         icon: icons["spell_nature_unyeildingstamina"],
-        maxRank: 5,
+        maxRank: 2,
         reqPoints: 0,
-        description: talentText`Gives you ${[
-          20,
-          40,
-          60,
-          80,
-          100,
-        ]}% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.`,
+        description: talentText`You gain 20 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form. This effect can only occur once every ${[
+          24,
+          12,
+        ]} sec.`,
       },
-      "Improved Healing Touch": {
-        name: "Improved Healing Touch",
+
+      "Natural Shapeshifter": {
+        name: "Natural Shapeshifter",
+        pos: "a4",
+        icon: icons["spell_nature_wispsplode"],
+        maxRank: 3,
+        reqPoints: 0,
+        description: talentText`Reduces the mana cost of all shapeshifting by ${[
+          10,
+          20,
+          30,
+        ]}%.`
+      },
+
+      "Naturalist": {
+        name: "Naturalist",
         pos: "b1",
         icon: icons["spell_nature_healingtouch"],
         maxRank: 5,
@@ -529,22 +653,36 @@ export const data: TalentData = {
           0.3,
           0.4,
           0.5,
-        ]} sec.`,
+        ]} sec and increases you Mana regeneration by ${[
+          20,
+          40,
+          60,
+          80,
+          100,
+        ]}% while in Cat, Bear or Dire Bear form.`,
       },
-      "Nature's Focus": {
-        name: "Nature's Focus",
+      
+      "Subtlety": {
+        name: "Subtlety",
         pos: "b2",
-        icon: icons["spell_nature_healingwavegreater"],
+        icon: icons["ability_eyeoftheowl"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Gives you a ${[
-          14,
-          28,
-          42,
-          56,
-          70,
-        ]}% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.`,
+        description: talentText`Reduces the threat you generate by ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}% and increases the chance to avoid area of effect spells by an additional ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}%.`,
       },
+      
       "Improved Enrage": {
         name: "Improved Enrage",
         pos: "b3",
@@ -552,51 +690,73 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 5,
         description: talentText`The Enrage ability now instantly generates ${[
-          5,
           10,
+          20,
         ]} Rage.`,
       },
-      Reflection: {
-        name: "Reflection",
+      "Revive": {
+        name: "Revive",
+        pos: "c1",
+        icon: icons["revive"],
+        maxRank: 1,
+        reqPoints: 10,
+        prereq: "Naturalist",
+        arrows: [{ dir: "down", from: "b1", to: "c1" },],
+        description: talentText`Returns the spirit to the body, restoring a dead target to life with 20% of their health and mana. Cannot be cast when in combat.`
+      },
+
+      "Omen of Clarity": {
+        name: "Omen of Clarity",
         pos: "c2",
+        icon: icons["spell_nature_crystalball"],
+        maxRank: 1,
+        reqPoints: 10,
+        description: talentText`Imbues the Druid with natural energy. Each of the Druid's melee attack has a chance to reduce the cost and cast time of your next damage or healing spell by 100%. Lasts 2 min.`,
+      },
+
+      "Reflection": {
+        name: "Reflection",
+        pos: "c3",
         icon: icons["spell_frost_windwalkon"],
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Allows ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}% of your Mana regeneration to continue while casting.`,
       },
-      "Insect Swarm": {
-        name: "Insect Swarm",
-        pos: "c3",
-        icon: icons["spell_nature_insectswarm"],
-        maxRank: 1,
-        reqPoints: 10,
-        description: talentText`The enemy is swarmed by insects, decreasing their chance to hit by 2% and causing 66 Nature damage over 12 sec.`,
-      },
-      Subtlety: {
-        name: "Subtlety",
+
+      "Improved Mark of the Wild": {
+        name: "Improved Mark of the Wild",
         pos: "c4",
-        icon: icons["ability_eyeoftheowl"],
-        maxRank: 5,
+        icon: icons["spell_nature_regeneration"],
+        maxRank: 3,
         reqPoints: 10,
-        description: talentText`Reduces the threat generated by your Healing spells by ${[
-          4,
-          8,
-          12,
-          16,
+        description: talentText`Increases the effects of your Mark of the Wild and Gift of the Wild spells by ${[
           20,
-        ]}%.`,
+          40,
+          60,
+        ]}%. and reduces the chance listed spells will be dispelled by ${[
+          20,
+          40,
+          60,
+        ]}%`,
       },
-      "Tranquil Spirit": {
-        name: "Tranquil Spirit",
+
+      "Gift of Nature": {
+        name: "Gift of Nature",
         pos: "d2",
-        icon: icons["spell_holy_elunesgrace"],
+        icon: icons["spell_nature_protectionformnature"],
         maxRank: 5,
         reqPoints: 15,
-        description: talentText`Reduces the mana cost of your Healing Touch and Tranquility spells by ${[
+        description: talentText`Increases Nature damage done by ${[
+          2,
+          4,
+          6,
+          8,
+          10,
+        ]}% and increases the effect of all healing spells and healing taken by ${[
           2,
           4,
           6,
@@ -604,77 +764,128 @@ export const data: TalentData = {
           10,
         ]}%.`,
       },
+
       "Improved Rejuvenation": {
         name: "Improved Rejuvenation",
-        pos: "d4",
+        pos: "d3",
         icon: icons["spell_nature_rejuvenation"],
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases the effect of your Rejuvenation spell by ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}%.`,
       },
+
+      "Custody of the Nature": {
+        name: "Custody of the Nature",
+        pos: "d4",
+        icon: icons["custody_of_the_nature"],
+        maxRank: 3,
+        reqPoints: 15,
+        description: talentText`After being struck by a critical hit, you become immune to critical strikes for the next ${[
+          1,
+          2,
+          3,
+        ]} attack(s) or ${[
+          3,
+          4,
+          5,
+        ]} sec. In addition, gives your spell effects additional ${[
+          20,
+          35,
+          50,
+        ]}% chance to resist dispel effects.`,
+      },
+
       "Nature's Swiftness": {
         name: "Nature's Swiftness",
         pos: "e1",
         icon: icons["spell_nature_ravenform"],
         maxRank: 1,
         reqPoints: 20,
-        prereq: "Improved Healing Touch",
-        arrows: [{ dir: "down", from: "b1", to: "e1" }],
-        description: talentText`When activated, your next Nature spell becomes an instant cast spell.`,
+        description: talentText`When activated, your next spell becomes an instant cast spell.`,
       },
-      "Gift of Nature": {
-        name: "Gift of Nature",
-        pos: "e3",
-        icon: icons["spell_nature_protectionformnature"],
+
+      "Tranquil Spirit": {
+        name: "Tranquil Spirit",
+        pos: "e2",
+        icon: icons["spell_holy_elunesgrace"],
         maxRank: 5,
         reqPoints: 20,
-        prereq: "Insect Swarm",
-        arrows: [{ dir: "down", from: "c3", to: "e3" }],
-        description: talentText`Increases the effect of all healing spells by ${[
-          2,
-          4,
+        description: talentText`Reduces the mana cost of your Healing Touch and Tranquility spells by ${[
+          3,
           6,
-          8,
-          10,
-        ]}%.`,
-      },
-      "Improved Tranquility": {
-        name: "Improved Tranquility",
-        pos: "e4",
-        icon: icons["spell_nature_tranquility"],
-        maxRank: 2,
-        reqPoints: 20,
-        description: talentText`Reduces the threat caused by Tranquility by ${[
-          50,
+          9,
+          12,
+          15,
+        ]}%. In addition, increases eddect and reduces threat cause by Tranquility by ${[
+          20,
+          40,
+          60,
+          80,
           100,
         ]}%.`,
       },
+
+      "Catharsis": {
+        name: "Catharsis",
+        pos: "e4",
+        icon: icons["catharsis"],
+        maxRank: 3,
+        reqPoints: 20,
+        description: talentText`Reduces the Mana cost of your Soothe Animal, Hibernate, Remove Curse, Cure Poison, Abolish Poisin, Rebirth and Revive spells by ${[
+          15,
+          30,
+          45,
+        ]}%.\nIn addition, your innervate casts grants you ${[
+          5,
+          10,
+          15,
+        ]} sec of Innervate effect.`,
+      },
+      
+      "Animism": {
+        name: "Animism",
+        pos: "f1",
+        icon: icons["animism"],
+        maxRank: 5,
+        reqPoints: 25,
+        description: talentText`Increases damage and healing done by up to ${[
+          5,
+          10,
+          15,
+          20,
+          25,
+        ]}% of your total Spirit.`,
+      },
+
       "Improved Regrowth": {
         name: "Improved Regrowth",
         pos: "f3",
         icon: icons["spell_nature_resistnature"],
         maxRank: 5,
         reqPoints: 25,
+        prereq: "Improved Rejuvenation",
+        arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Increases the critical effect chance of your Regrowth spell by ${[
-          10,
-          20,
+          15,
           30,
-          40,
-          50,
+          45,
+          60,
+          75,
         ]}%.`,
       },
-      Swiftmend: {
+
+      "Swiftmend": {
         name: "Swiftmend",
         pos: "g2",
         icon: icons["inv_relics_idolofrejuvenation"],
         maxRank: 1,
         reqPoints: 30,
         prereq: "Tranquil Spirit",
-        arrows: [{ dir: "down", from: "d2", to: "g2" }],
+        arrows: [{ dir: "down", from: "e2", to: "g2" }],
         description: talentText`Consumes a Rejuvenation or Regrowth effect on a friendly target to instantly heal them an amount equal to 12 sec. of Rejuvenation or 18 sec. of Regrowth.`,
       },
     },

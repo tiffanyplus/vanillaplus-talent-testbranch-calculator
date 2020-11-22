@@ -1,9 +1,6 @@
-# Classic WoW Talent Calculator
+# Vanilla+ WoW Talent Calculator
 
 CSS-grid based talent calculator
-
-Check it out:
-https://www.classiccalc.xyz/druid
 
 ## Features
 

@@ -468,7 +468,7 @@ export const data: TalentData = {
         pos: "d3",
         icon: icons["spell_holy_blessingofagility"],
         maxRank: 5,
-        reqPoints: 25,
+        reqPoints: 15,
         description: talentText`Increases your Intellect and Spirit by ${[
           6,
           12,
@@ -526,7 +526,7 @@ export const data: TalentData = {
         maxRank: 1,
         reqPoints: 20,
         prereq: "Heart of the Wild",
-        arrows: [{ dir: "down", from: "d3", to: "c3" },],
+        arrows: [{ dir: "down", from: "d3", to: "e3" },],
         description: talentText`Heal yourself for 30% of your maximum health, and increases your maximum health by 30% for 20 sec.`,
       },
       

@@ -70,22 +70,22 @@ Warrior:
 		Pos: (a2)Name: Tactical Mastery Texture: Interface\Icons\Spell_Nature_EnchantArmor Max: 3
 		Pos: (a3)Name: Deflection Texture: Interface\Icons\Ability_Parry Max: 2
 		Pos: (b1)Name: Improved Charge Texture: Interface\Icons\Ability_Warrior_Charge Max: 3
-(a3)	Pos: (b3)Name: Duelist Texture: Interface\Icons\Ability_Warrior_Challange Max: 2 
+(a3)		Pos: (b3)Name: Duelist Texture: Interface\Icons\Ability_Warrior_Challange Max: 2 
 		Pos: (b4)Name: Improved Thunder Clap Texture: Interface\Icons\Ability_ThunderClap Max: 3
 		Pos: (c1)Name: Improved Hamstring Texture: Interface\Icons\Ability_ShockWave Max: 3
-(a2)	Pos: (c2)Name: Anger Management Texture: Interface\Icons\Spell_Holy_BlessingOfStamina Max: 1 
+(a2)		Pos: (c2)Name: Anger Management Texture: Interface\Icons\Spell_Holy_BlessingOfStamina Max: 1 
 		Pos: (c3)Name: Impale Texture: Interface\Icons\Ability_SearingArrow Max: 2
-(c3)	Pos: (c4)Name: Deep Wounds Texture: Interface\Icons\Ability_BackStab Max: 3 
+(c3)		Pos: (c4)Name: Deep Wounds Texture: Interface\Icons\Ability_BackStab Max: 3 
 		Pos: (d1)Name: Poleaxe Specialization Texture: Interface\Icons\INV_Weapon_Halbard_01 Max: 5
 		Pos: (d2)Name: Mace Specialization Texture: Interface\Icons\INV_Mace_01 Max: 5
 		Pos: (d3)Name: Sword Specialization Texture: Interface\Icons\INV_Sword_27 Max: 5
 		Pos: (e2)Name: Sweeping Strikes Texture: Interface\Icons\Ability_Rogue_SliceDice Max: 1
 		Pos: (e3)Name: Two-Handed Weapon Specialization Texture: Interface\Icons\INV_Axe_09 Max: 5
-(c4)	Pos: (e4)Name: Maim Texture: Interface\Icons\Ability_Creature_Cursed_02 Max: 3 
+(c4)		Pos: (e4)Name: Maim Texture: Interface\Icons\Ability_Creature_Cursed_02 Max: 3 
 		Pos: (f1)Name: Para Bellum Texture: Interface\Icons\Spell_Holy_PrayerOfHealing Max: 5
 		Pos: (f3)Name: Dog of War Texture: Interface\Icons\INV_Banner_03 Max: 5
-(e2)	Pos: (g2)Name: Mortal Strike Texture: Interface\Icons\Ability_Warrior_SavageBlow Max: 1 
-(g2)	Pos: (g3)Name: Improved Mortal Strike Texture: Interface\Icons\Ability_Warrior_SavageBlow Max: 2 
+(e2)		Pos: (g2)Name: Mortal Strike Texture: Interface\Icons\Ability_Warrior_SavageBlow Max: 1 
+(g2)		Pos: (g3)Name: Improved Mortal Strike Texture: Interface\Icons\Ability_Warrior_SavageBlow Max: 2 
 
 	Fury:
 		Pos: (a1)Name: Combat Endurance Texture: Interface\Icons\Racial_Orc_BerserkerStrength Max: 3
@@ -94,7 +94,7 @@ Warrior:
 		Pos: (b1)Name: Improved Demoralizing Shout Texture: Interface\Icons\Ability_Warrior_WarCry Max: 5
 		Pos: (b3)Name: Unbridled Wrath Texture: Interface\Icons\Spell_Nature_StoneClawTotem Max: 5
 		Pos: (c1)Name: Improved Cleave Texture: Interface\Icons\Ability_Warrior_Cleave Max: 2
-(a2)	Pos: (c2)Name: Piercing Howl Texture: Interface\Icons\Spell_Shadow_DeathScream Max: 1 
+(a2)		Pos: (c2)Name: Piercing Howl Texture: Interface\Icons\Spell_Shadow_DeathScream Max: 1 
 		Pos: (c3)Name: Blood Craze Texture: Interface\Icons\Spell_Shadow_SummonImp Max: 3
 		Pos: (c4)Name: Improved Battle Shout Texture: Interface\Icons\Ability_Warrior_BattleShout Max: 2
 		Pos: (d1)Name: Precision Texture: Interface\Icons\Ability_Marksmanship Max: 5
@@ -105,9 +105,9 @@ Warrior:
 		Pos: (e2)Name: Death Wish Texture: Interface\Icons\Spell_Shadow_DeathPact Max: 1
 		Pos: (e4)Name: Interceptor Texture: Interface\Icons\Ability_Rogue_Sprint Max: 2
 		Pos: (f1)Name: Flurry Texture: Interface\Icons\Ability_GhoulFrenzy Max: 5
-(d3)	Pos: (f3)Name: Berserker's Blood Texture: INTERFACE\ICONS\Zerkerblood Max: 5 
-(e2)	Pos: (g2)Name: Bloodthirst Texture: Interface\Icons\Spell_Nature_BloodLust Max: 1 
-(g2)	Pos: (g3)Name: Improved Bloodthirst Texture: Interface\Icons\Spell_Nature_BloodLust Max: 2 
+(d3)		Pos: (f3)Name: Berserker's Blood Texture: INTERFACE\ICONS\Zerkerblood Max: 5 
+(e2)		Pos: (g2)Name: Bloodthirst Texture: Interface\Icons\Spell_Nature_BloodLust Max: 1 
+(g2)		Pos: (g3)Name: Improved Bloodthirst Texture: Interface\Icons\Spell_Nature_BloodLust Max: 2 
 
 	Protection:
 		Pos: (a1)Name: Improved Bloodrage Texture: Interface\Icons\Ability_Racial_BloodRage Max: 2
@@ -116,10 +116,10 @@ Warrior:
 		Pos: (b2)Name: Shield Specialization Texture: Interface\Icons\INV_Shield_06 Max: 5
 		Pos: (b3)Name: Improved Shield Bash Texture: Interface\Icons\Ability_Warrior_ShieldBash Max: 2
 		Pos: (b4)Name: Improved Revenge Texture: Interface\Icons\Ability_Warrior_Revenge Max: 3
-(a1)	Pos: (c1)Name: Last Stand Texture: Interface\Icons\Spell_Holy_AshesToAshes Max: 1 
+(a1)		Pos: (c1)Name: Last Stand Texture: Interface\Icons\Spell_Holy_AshesToAshes Max: 1 
 		Pos: (c2)Name: Shield Mastery Texture: Interface\Icons\Ability_Defend Max: 3
 		Pos: (c3)Name: Blade Mail Texture: Interface\Icons\INV_Shoulder_11 Max: 3
-(b4)	Pos: (c4)Name: Concussion Blow Texture: Interface\Icons\Ability_ThunderBolt Max: 1 
+(b4)		Pos: (c4)Name: Concussion Blow Texture: Interface\Icons\Ability_ThunderBolt Max: 1 
 		Pos: (d1)Name: Mocker Texture: Interface\Icons\Spell_Nature_Reincarnation Max: 2
 		Pos: (d2)Name: Iron Will Texture: Interface\Icons\Spell_Magic_MageArmor Max: 3
 		Pos: (d3)Name: Defiance Texture: Interface\Icons\Ability_BullRush Max: 5
@@ -129,7 +129,7 @@ Warrior:
 		Pos: (e3)Name: Improved Shield Wall Texture: Interface\Icons\Ability_Warrior_ShieldWall Max: 2
 		Pos: (f1)Name: Vitality Texture: Interface\Icons\Spell_Nature_UndyingStrength Max: 5
 		Pos: (f3)Name: Butterfly Style Texture: Interface\Icons\Spell_Nature_Windfury Max: 5
-(e2)	Pos: (g2)Name: Constitution Texture: Interface\Icons\Ability_Warrior_IntensifyRage Max: 1 
+(e2)		Pos: (g2)Name: Constitution Texture: Interface\Icons\Ability_Warrior_IntensifyRage Max: 1 
 
 Warlock:
 	Afflicition
@@ -141,15 +141,15 @@ Warlock:
 		Pos: (b3)Name: Improved Curse of Agony Texture: Interface\Icons\Spell_Shadow_CurseOfSargeras Max: 3
 		Pos: (c1)Name: Improved Drain Texture: INTERFACE\ICONS\DrainingALL Max: 2
 		Pos: (b1)Name: Fel Concentration Texture: Interface\Icons\Spell_Shadow_FingerOfDeath Max: 5
-(b3)	Pos:(c3)Name: Amplify Curse Texture: Interface\Icons\Spell_Shadow_Contagion Max: 1 
+(b3)		Pos:(c3)Name: Amplify Curse Texture: Interface\Icons\Spell_Shadow_Contagion Max: 1 
 		Pos: (d1)Name: Improved Drain Soul Texture: Interface\Icons\Spell_Shadow_Haunting Max: 2
 		Pos: (d2)Name: Nightfall Texture: Interface\Icons\Spell_Shadow_Twilight Max: 3
-(c3)	Pos: (d3)Name: Herald of Woe Texture: INTERFACE\ICONS\cloak_of_flame Max: 2
+(c3)		Pos: (d3)Name: Herald of Woe Texture: INTERFACE\ICONS\cloak_of_flame Max: 2
 		Pos: (e1)Name: Siphon Life Texture: Interface\Icons\Spell_Shadow_Requiem Max: 1
 		Pos: (e3)Name: Black Speech Texture: Interface\Icons\Spell_Shadow_SoulLeech Max: 3
-(a4)	Pos: (e4)Name: Death and Decay Texture: Interface\Icons\Spell_Shadow_DeathAndDecay Max: 1
-(e1)	Pos: (f1)Name: Shadow Mastery Texture: Interface\Icons\Spell_Shadow_ShadeTrueSight Max: 5
-(d2)	Pos: (f2)Name: Inevitable Doom Texture: Interface\Icons\Spell_Shadow_AuraOfDarkness Max: 5
+(a4)		Pos: (e4)Name: Death and Decay Texture: Interface\Icons\Spell_Shadow_DeathAndDecay Max: 1
+(e1)		Pos: (f1)Name: Shadow Mastery Texture: Interface\Icons\Spell_Shadow_ShadeTrueSight Max: 5
+(d2)		Pos: (f2)Name: Inevitable Doom Texture: Interface\Icons\Spell_Shadow_AuraOfDarkness Max: 5
 		Pos: (c2)Name: Prolonged Misery Texture: Interface\Icons\Spell_Shadow_UnstableAfllictions Max: 2
 		Pos: (g2)Name: Defiler Texture: INTERFACE\ICONS\Inevitabledoom Max: 1
 	
@@ -166,14 +166,14 @@ Warlock:
 		Pos: (c3)Name: Demonic Onslaught Texture: Interface\Icons\INV_Misc_Horn_02 Max: 5
 		Pos: (b2)Name: Master Conjuror Texture: Interface\Icons\Spell_Shadow_SoulGem Max: 2
 		Pos: (d1)Name: Fel Intellect Texture: Interface\Icons\Spell_Holy_MagicalSentry Max: 5
-(c2)	Pos: (d2)Name: Master Summoner Texture: Interface\Icons\Spell_Shadow_ImpPhaseShift Max: 2
+(c2)		Pos: (d2)Name: Master Summoner Texture: Interface\Icons\Spell_Shadow_ImpPhaseShift Max: 2
 		Pos: (d4)Name: Fel Stamina Texture: Interface\Icons\Spell_Shadow_AntiShadow Max: 5
 		Pos: (e1)Name: Improved Felhunter Texture: Interface\Icons\Spell_Shadow_SummonFelHunter Max: 3
 		Pos: (e2)Name: Soul Link Texture: Interface\Icons\Spell_Shadow_GatherShadows Max: 1
 		Pos: (e4)Name: Improved Enslave Demon Texture: Interface\Icons\Spell_Shadow_EnslaveDemon Max: 2
 		Pos: (f1)Name: Master Demonologist Texture: Interface\Icons\Spell_Shadow_ShadowPact Max: 5
-(d3)	Pos: (f3)Name: Fel Pact Texture: Interface\Icons\INV_Helmet_08 Max: 5
-(e2)	Pos: (g2)Name: Demonic Sacrifice Texture: Interface\Icons\Spell_Shadow_PsychicScream Max: 1
+(d3)		Pos: (f3)Name: Fel Pact Texture: Interface\Icons\INV_Helmet_08 Max: 5
+(e2)		Pos: (g2)Name: Demonic Sacrifice Texture: Interface\Icons\Spell_Shadow_PsychicScream Max: 1
 	
 	Destruction
 		Pos: (a1)Name: Destructive Reach Texture: Interface\Icons\Spell_Shadow_CorpseExplode Max: 2
@@ -183,15 +183,15 @@ Warlock:
 		Pos: (b2)Name: Devastation Texture: Interface\Icons\Spell_Fire_FlameShock Max: 5
 		Pos: (b3)Name: Demonic Power Texture: Interface\Icons\Spell_Fire_FireBolt Max: 2
 		Pos: (c1)Name: Intensity Texture: Interface\Icons\Spell_Fire_LavaSpawn Max: 2
-(b2)	Pos: (c2)Name: Ruin Texture: Interface\Icons\Spell_Shadow_ShadowWordPain Max: 5
-(b3)	Pos: (c3)Name: Feeding Demons Texture: INTERFACE\ICONS\dragon_devour Max: 2
+(b2)		Pos: (c2)Name: Ruin Texture: Interface\Icons\Spell_Shadow_ShadowWordPain Max: 5
+(b3)		Pos: (c3)Name: Feeding Demons Texture: INTERFACE\ICONS\dragon_devour Max: 2
 		Pos: (c4)Name: Shadowburn Texture: Interface\Icons\Spell_Shadow_ScourgeBuild Max: 1
 		Pos: (d2)Name: Improved Immolate Texture: Interface\Icons\Spell_Fire_Immolation Max: 3
 		Pos: (d3)Name: Bring the Pain Texture: Interface\Icons\Spell_Fire_SoulBurn Max: 2
 		Pos: (d4)Name: Improved Shadow Bolt Texture: Interface\Icons\Spell_Shadow_ShadowBolt Max: 5
-(c1)	Pos: (e1)Name: Pyroclasm Texture: Interface\Icons\Spell_Fire_Volcano Max: 2
-(d2)	Pos: (e2)Name: Conflagrate Texture: Interface\Icons\Spell_Fire_Fireball Max: 1
-(d3)	Pos: (e3)Name: Sadism Texture: Interface\Icons\Spell_Shadow_UnstableAffliction_3 Max: 5
+(c1)		Pos: (e1)Name: Pyroclasm Texture: Interface\Icons\Spell_Fire_Volcano Max: 2
+(d2)		Pos: (e2)Name: Conflagrate Texture: Interface\Icons\Spell_Fire_Fireball Max: 1
+(d3)		Pos: (e3)Name: Sadism Texture: Interface\Icons\Spell_Shadow_UnstableAffliction_3 Max: 5
 		Pos: (e4)Name: Mayhem Texture: Interface\Icons\Spell_Holy_Excorcism_02 Max: 1
 		Pos: (f2)Name: Shadowstorm  Texture: Interface\Icons\Spell_Shadow_ChillTouch Max: 5
 		Pos: (f3)Name: Emberstorm Texture: Interface\Icons\Spell_Fire_SelfDestruct Max: 5

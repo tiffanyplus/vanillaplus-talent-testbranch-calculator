@@ -1,8 +1,13 @@
-* {
-  box-sizing: border-box;
+html {
+  background: url("/darkportal.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #141414;
 }
 
 body {
+  
+  box-sizing: border-box;
   --col-background: #141414;
   --col-pane: #222222;
   --col-yellow: #ffd100;
@@ -26,6 +31,5 @@ body {
 
   margin: 0;
   font-family: "Helvetica";
-
-  background: var(--col-background);
+  
 }

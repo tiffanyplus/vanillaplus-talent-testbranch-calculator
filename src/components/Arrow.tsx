@@ -1,6 +1,8 @@
 import React from "react";
 
 import "./Arrow.css";
+import arrowLeft from "../assets/arrows/left.png";
+import arrowLeftGold from "../assets/arrows/left--gold.png";
 import arrowRight from "../assets/arrows/right.png";
 import arrowRightGold from "../assets/arrows/right--gold.png";
 import arrowDown from "../assets/arrows/down.png";
@@ -11,6 +13,8 @@ import arrowRightDownGold from "../assets/arrows/right-down--gold.png";
 import { Position, ArrowDir } from "../TalentContext";
 
 const imageMap = {
+  left: arrowLeft,
+  "left--gold": arrowLeftGold,
   right: arrowRight,
   "right--gold": arrowRightGold,
   down: arrowDown,

@@ -138,12 +138,12 @@ Warlock:
 		Pos: (a2)Name: Improved Life Tap 	Texture: Interface\Icons\Spell_Shadow_BurningSpirit Max: 2
 		Pos: (a3)Name: Jinx Texture: Interface\Icons\Spell_Shadow_CurseOfMannoroth Max: 3
 		Pos: (a4)Name: Improved Corruption Texture: Interface\Icons\Spell_Shadow_AbominationExplosion Max: 5
-		Pos: (f3)Name: Bubonic Trail Texture: Interface\Icons\Spell_Shadow_CallofBone Max: 2
+		Pos: (b1)Name: Fel Concentration Texture: Interface\Icons\Spell_Shadow_FingerOfDeath Max: 5
 		Pos: (b2)Name: Suppression Texture: Interface\Icons\Spell_Shadow_UnsummonBuilding Max: 2
 		Pos: (b3)Name: Improved Curse of Agony Texture: Interface\Icons\Spell_Shadow_CurseOfSargeras Max: 3
 		Pos: (c1)Name: Improved Drain Texture: INTERFACE\ICONS\DrainingALL Max: 2
-		Pos: (b1)Name: Fel Concentration Texture: Interface\Icons\Spell_Shadow_FingerOfDeath Max: 5
-(b3)	Pos:(c3)Name: Amplify Curse Texture: Interface\Icons\Spell_Shadow_Contagion Max: 1 
+		Pos: (c2)Name: Prolonged Misery Texture: Interface\Icons\Spell_Shadow_UnstableAfllictions Max: 2
+(b3)	Pos: (c3)Name: Amplify Curse Texture: Interface\Icons\Spell_Shadow_Contagion Max: 1 
 		Pos: (d1)Name: Improved Drain Soul Texture: Interface\Icons\Spell_Shadow_Haunting Max: 2
 		Pos: (d2)Name: Nightfall Texture: Interface\Icons\Spell_Shadow_Twilight Max: 3
 (c3)	Pos: (d3)Name: Herald of Woe Texture: INTERFACE\ICONS\cloak_of_flame Max: 2
@@ -152,7 +152,7 @@ Warlock:
 (a4)	Pos: (e4)Name: Death and Decay Texture: Interface\Icons\Spell_Shadow_DeathAndDecay Max: 1
 (e1)	Pos: (f1)Name: Shadow Mastery Texture: Interface\Icons\Spell_Shadow_ShadeTrueSight Max: 5
 (d2)	Pos: (f2)Name: Inevitable Doom Texture: Interface\Icons\Spell_Shadow_AuraOfDarkness Max: 5
-		Pos: (c2)Name: Prolonged Misery Texture: Interface\Icons\Spell_Shadow_UnstableAfllictions Max: 2
+		Pos: (f3)Name: Bubonic Trail Texture: Interface\Icons\Spell_Shadow_CallofBone Max: 2
 		Pos: (g2)Name: Defiler Texture: INTERFACE\ICONS\Inevitabledoom Max: 1
 	
 	Demonology

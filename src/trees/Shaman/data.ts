@@ -227,12 +227,12 @@ export const data: TalentData = {
         reqPoints: 5, 
         description: talentText``, 
       },
-      "Anticipation": {
-        name: "Anticipation", 
-        pos: "e3", 
-        icon: icons["spell_nature_mirrorimage"], 
+      "Toughness": {
+        name: "Toughness", 
+        pos: "b4", 
+        icon: icons["spell_holy_devotion"], 
         maxRank: 3, 
-        reqPoints: 20, 
+        reqPoints: 5, 
         description: talentText``, 
       },
       "Rockhide": {
@@ -273,20 +273,20 @@ export const data: TalentData = {
         reqPoints: 10, 
         description: talentText``, 
       },
-      "Enhancing Totems": {
-        name: "Enhancing Totems", 
-        pos: "e1", 
-        icon: icons["spell_nature_earthbindtotem"], 
+      "Improved Weapon Totems": {
+        name: "Improved Weapon Totems", 
+        pos: "d1", 
+        icon: icons["spell_fire_enchantweapon"], 
         maxRank: 2, 
-        reqPoints: 20, 
+        reqPoints: 15, 
         description: talentText``, 
       },
-      "Toughness": {
-        name: "Toughness", 
-        pos: "b4", 
-        icon: icons["spell_holy_devotion"], 
-        maxRank: 3, 
-        reqPoints: 5, 
+      "Primal Endurance": {
+        name: "Primal Endurance", 
+        pos: "d2", 
+        icon: icons["spell_nature_ancestralguardian"], 
+        maxRank: 5, 
+        reqPoints: 15, 
         description: talentText``, 
       },
       "Improved Ghost Wolf": {
@@ -305,12 +305,12 @@ export const data: TalentData = {
         reqPoints: 15, 
         description: talentText``, 
       },
-      "Improved Weapon Totems": {
-        name: "Improved Weapon Totems", 
-        pos: "d1", 
-        icon: icons["spell_fire_enchantweapon"], 
+      "Enhancing Totems": {
+        name: "Enhancing Totems", 
+        pos: "e1", 
+        icon: icons["spell_nature_earthbindtotem"], 
         maxRank: 2, 
-        reqPoints: 15, 
+        reqPoints: 20, 
         description: talentText``, 
       },
       "Bloodlust": {
@@ -321,12 +321,12 @@ export const data: TalentData = {
         reqPoints: 20, 
         description: talentText``, 
       },
-      "Primal Endurance": {
-        name: "Primal Endurance", 
-        pos: "d2", 
-        icon: icons["spell_nature_ancestralguardian"], 
-        maxRank: 5, 
-        reqPoints: 15, 
+      "Anticipation": {
+        name: "Anticipation", 
+        pos: "e3", 
+        icon: icons["spell_nature_mirrorimage"], 
+        maxRank: 3, 
+        reqPoints: 20, 
         description: talentText``, 
       },
       "Armaments of Storm": {

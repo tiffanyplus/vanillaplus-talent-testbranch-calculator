@@ -162,7 +162,7 @@ export const data: TalentData = {
         name: "Herald of Woe",
         pos: "d3",
         icon: icons["cloak_of_flame"],
-        maxRank: 3,
+        maxRank: 2,
         reqPoints: 15,
         prereq: "Amplify Curse",
         arrows: [{ dir: "down", from: "c3", to: "d3" }],

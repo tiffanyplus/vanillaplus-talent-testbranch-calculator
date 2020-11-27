@@ -8,3 +8,8 @@ Check the progress so far: https://hawaiisa.github.io/vanillaplus-talent-calcula
 - Code splitting per class
 - Viewport-aware tooltip
 - Authentic, raster-based game assets used for UI
+
+## Wishlist / todo  
+
+- Have values scale based on the "Required level" for spent talent points.  
+- Better tooltip positioning for mobile layout.

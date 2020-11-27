@@ -14,7 +14,7 @@ function TalentDep()
             local tier = {"a","b","c","d","e","f","g"}
             Row = tier[t]
           end
-	    end
+	end
         if tierP then
           for depPage = 1,3 do
             for depIndex = 1,25 do          

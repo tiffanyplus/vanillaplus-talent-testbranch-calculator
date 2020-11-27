@@ -1,4 +1,4 @@
-# WIP: Vanilla+ WoW Talent Calculator
+# WoW Vanilla+ Talent Calculator
 
 CSS-grid based talent calculator  
 Check the progress so far: https://hawaiisa.github.io/vanillaplus-talent-calculator/

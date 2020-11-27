@@ -1,5 +1,5 @@
 --[[
-  This LUA script pulls the talent tree information for the logged in class and prints it to chat truescript formatted.
+  This LUA script pulls the talent tree information for the logged in class and prints it to chat typescript formatted.
   Info needed to add manually: Arrows if prerequisites and description. Icons if they are not already in src/assets/icons/[class]. Everything else should be added automagically.
   The script was used together with SuperMacro
 ]]--

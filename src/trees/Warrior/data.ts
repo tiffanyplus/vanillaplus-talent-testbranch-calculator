@@ -166,10 +166,10 @@ export const data: TalentData = {
         reqPoints: 15,
         description: talentText`Causes your attacks with maces to ignore up to ${[
           120,
-          180,
           240,
-          300,
           360,
+          480,
+          600,
         ]} of your target's armor (Scales with your level).`,
       },
       "Sword Specialization": {
@@ -494,17 +494,17 @@ export const data: TalentData = {
       "Berserker's Blood": {
         name: "Berserker's Blood",
         pos: "f3",
-        icon: icons["spell_nature_ancestralguardian"],
+        icon: icons["zerkerblood"],
         maxRank: 5,
         reqPoints: 25,
         prereq: "Enrage",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
         description: talentText`Increases your attack speed, chance to resist hostile spells and healing taken by 5% to 35%. At full health the bonus is 5% with a greater effect up to 35% if you are badly hurt. Max bonus health threshold: ${[
           1,
-          2,
-          3,
-          4,
-          5,
+          10,
+          20,
+          30,
+          40,
         ]}%.`,
       },
       "Bloodthirst": {
@@ -636,6 +636,8 @@ export const data: TalentData = {
         icon: icons["ability_defend"],
         maxRank: 3,
         reqPoints: 10,
+        prereq: "Shield Specialization",
+        arrows: [{ dir: "down", from: "b2", to: "c2"}],
         description: talentText`Allows your Shield Block and Shield Reflection abilities to block/reflect and additional attack/spell and reduces their cooldowns by ${[
           15,
           30,

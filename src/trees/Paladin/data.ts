@@ -650,11 +650,11 @@ export const data: TalentData = {
         prereq: "Conviction", 
         arrows: [{ dir: "down", from: "a2", to: "c2" }], 
         description: talentText`Causes your attacks to ignore up to ${[
-          180,
+          120,
+          240,
           360,
-          540,
-          720,
-          900,
+          480,
+          600,
         ]} of your target's Armor. The amount of Armor reduced scales with your level.`, 
       },
       "Seal of Command": {
@@ -731,7 +731,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_mindvision"], 
         maxRank: 1, 
         reqPoints: 20, 
-        description: talentText`Increases Holy damage done by party members within 30 yards by 30%. Players may only have on Aura on them per Paladin at any one time.`, 
+        description: talentText`Increases Holy damage done by party members within 30 yards by 10%. Players may only have on Aura on them per Paladin at any one time.`, 
       },
       "Vengeance": {
         name: "Vengeance", 

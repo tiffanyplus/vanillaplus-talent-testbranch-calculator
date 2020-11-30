@@ -413,7 +413,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Shield Specialization", 
         arrows: [{ dir: "down", from: "a3", to: "c3" }], 
-        description: talentText`Smashes the target and its nearest allies with petrified shield, causing 79 damage, increased by attack power. Hits up to somethingsomething targets.`, 
+        description: talentText`Smashes the target and its nearest allies with petrified shield, causing 79 damage, increased by attack power. Hits up to 3 targets.`, 
       },
       "Weapon Mastery": {
         name: "Weapon Mastery", 

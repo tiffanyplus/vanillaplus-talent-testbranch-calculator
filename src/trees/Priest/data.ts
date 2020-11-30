@@ -661,11 +661,8 @@ export const data: TalentData = {
         prereq: "Improved Psychic Scream", 
         arrows: [{dir: "down", from: "c1", to: "d1" }], 
         description: talentText`Reduces the cooldown of your Shadow Word: Silence spell by ${[
-          5,
-          10,
           15,
-          20,
-          25,
+          30,
         ]} sec.`, 
       },
       "Improved Mind Flay": {

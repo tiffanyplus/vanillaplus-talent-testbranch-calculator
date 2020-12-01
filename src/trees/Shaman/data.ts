@@ -536,7 +536,13 @@ export const data: TalentData = {
         icon: icons["spell_nature_shamanism"], 
         maxRank: 5, 
         reqPoints: 25, 
-        description: talentText`Gives your melee attack a chance to enter a Shamanic Trance. The Shamanic Trance reduces the cast time and Mana cost of your next damage spell by 100% and greatly reduces target's chance to resist that spell. ${["", "Effect occurs more often than Shamanism (Rank 1)"]}`, 
+        description: talentText`Gives your melee attack a chance to enter a Shamanic Trance. The Shamanic Trance reduces the cast time and Mana cost of your next damage spell by 100% and greatly reduces target's chance to resist that spell. ${[
+          "", 
+          "Effect occurs more often than Shamanism (Rank 1)",
+          "Effect occurs more often than Shamanism (Rank 2)",
+          "Effect occurs more often than Shamanism (Rank 3)",
+          "Effect occurs more often than Shamanism (Rank 4)",
+        ]}`, 
       },
       "Aftershock": {
         name: "Aftershock", 

@@ -33,3 +33,10 @@ body {
   font-family: "Helvetica";
   
 }
+
+#footer {
+  position: absolute;
+  bottom: 0.5rem;
+  width: 100%;
+  height: 1rem;
+}

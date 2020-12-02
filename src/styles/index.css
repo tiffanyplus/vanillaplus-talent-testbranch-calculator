@@ -33,6 +33,14 @@ body {
   font-family: "Helvetica";
   
 }
+	
+.image-logo {
+  max-width:10%;
+  max-height:10%;
+  position: absolute;
+  left: 1%;
+  bottom: 7%;
+}
 
 #footer {
   position: absolute;

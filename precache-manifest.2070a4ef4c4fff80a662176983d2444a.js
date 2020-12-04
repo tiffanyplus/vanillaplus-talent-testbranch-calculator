@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c7685253eff883747a22da7c27f8198b",
+    "revision": "82fced77e45c61b7f345177a1befca9b",
     "url": "/vanillaplus-talent-calculator/index.html"
   },
   {
@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vanillaplus-talent-calculator/static/js/8.53b15d17.chunk.js"
   },
   {
-    "revision": "daf214361ede1f325f16",
-    "url": "/vanillaplus-talent-calculator/static/js/9.c8929b72.chunk.js"
+    "revision": "035c9caa310055abbe84",
+    "url": "/vanillaplus-talent-calculator/static/js/9.12f87b51.chunk.js"
   },
   {
     "revision": "1eb7088c574774a036ea",
     "url": "/vanillaplus-talent-calculator/static/js/main.12663ce9.chunk.js"
   },
   {
-    "revision": "acc79ad010effeb5e525",
-    "url": "/vanillaplus-talent-calculator/static/js/runtime-main.73846b0e.js"
+    "revision": "9482b0f5fd8f6b9b918a",
+    "url": "/vanillaplus-talent-calculator/static/js/runtime-main.75c33282.js"
   },
   {
     "revision": "68b29a926e1bebd38e63343d7305e18b",

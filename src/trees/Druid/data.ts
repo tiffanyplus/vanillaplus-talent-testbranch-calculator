@@ -140,7 +140,7 @@ export const data: TalentData = {
         pos: "d1",
         icon: icons["spell_nature_naturetouchgrow"],
         maxRank: 2,
-        reqPoints: 10,
+        reqPoints: 15,
         description: talentText`Increases the range of you offensive Balance spells by ${[
           10,
           20,

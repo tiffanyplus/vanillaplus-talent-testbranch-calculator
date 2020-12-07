@@ -16,12 +16,10 @@ function TalentDep()
           end
 	end
         if tierP then
-          for depPage = 1,3 do
-            for depIndex = 1,25 do          
-              depName, _, depT, depC = GetTalentInfo(depPage,depIndex)
-              if depT == tierP and depC == colP then
-                depend = depName
-              end
+          for depIndex = 1,25 do          
+            depName, _, depT, depC = GetTalentInfo(page,depIndex)
+            if depT == tierP and depC == colP then
+              depend = depName
             end
           end
         end

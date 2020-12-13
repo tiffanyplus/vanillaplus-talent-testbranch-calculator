@@ -79,8 +79,12 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 5, 
         description: talentText`Increase the duration of your Slice and Dice, Rupture, and Expose Armor abilities by ${[
-
-        ]}`, 
+          25,
+          50,
+        ]}%. In addition, increases the armor reduced by your Expose Armor ability by ${[
+          25,
+          50,
+        ]}%.`, 
       },
       "Relentless Strikes": {
         name: "Relentless Strikes", 

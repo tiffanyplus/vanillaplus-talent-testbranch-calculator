@@ -154,9 +154,9 @@ export const data: TalentData = {
           4,
           6,
         ]}% and increases the chance your pets avoid area of effect spells by an additional ${[
-          15,
-          30,
-          45,
+          20,
+          40,
+          60,
         ]}%.`, 
       },
       "Bestial Discipline": {
@@ -452,13 +452,19 @@ export const data: TalentData = {
         icon: icons["inv_musket_03"], 
         maxRank: 5, 
         reqPoints: 15,
-        description: talentText`Gives you a ${[
+        description: talentText`Your shots ignore up to ${[
+          6,
+          12,
+          18,
+          24,
+          30,
+        ]}% of your opponents armor and gives you a ${[
           2,
           4,
           6,
           8,
           10,
-        ]}% chance to deal additional 3 per lever Fire damage and to stun the target for 1 second when carrying a Gun.`, 
+        ]}% chance to stun the target for 1 sec when carrying a gun`, 
       },
       "Snapshot": {
         name: "Snapshot", 

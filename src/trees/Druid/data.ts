@@ -396,7 +396,7 @@ export const data: TalentData = {
         description: talentText`Increases your movement speed by ${[
           15,
           30,
-        ]}% while outdoors in Cat Form and increases your chance to dodge while in Cat Form by ${[
+        ]}% while outdoors in Cat Form and increases your chance to dodge by ${[
           3,
           6,
         ]}%.`,
@@ -853,11 +853,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 25,
         description: talentText`Increases damage and healing done by up to ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          8,
+          16,
+          24,
+          32,
+          40,
         ]}% of your total Spirit.`,
       },
 

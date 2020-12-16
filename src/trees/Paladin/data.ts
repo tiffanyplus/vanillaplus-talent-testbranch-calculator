@@ -392,7 +392,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Precision", 
         arrows: [{ dir: "down", from: "b1", to: "c1" }], 
-        description: talentText`Degenerates the movement and attack capabilities of nearby opponents by 20%.`, 
+        description: talentText`Degenerates the movement and attack capabilities of nearby opponents by 15%.`, 
       },
       "Blessing of Sanctuary": {
         name: "Blessing of Sanctuary", 
@@ -650,12 +650,18 @@ export const data: TalentData = {
         prereq: "Conviction", 
         arrows: [{ dir: "down", from: "a2", to: "c2" }], 
         description: talentText`Causes your attacks to ignore up to ${[
+          60,
           120,
+          180,
           240,
-          360,
-          480,
-          600,
-        ]} of your target's Armor. The amount of Armor reduced scales with your level.`, 
+          300,
+        ]} of your target's Armor. The amount of Armor reduced scales with your level. Also, reduces the threat caused by all actions by ${[
+          4,
+          8,
+          12,
+          16,
+          20,
+        ]}% except when under the effects of Righteous Fury.`, 
       },
       "Seal of Command": {
         name: "Seal of Command", 
@@ -663,7 +669,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"], 
         maxRank: 1, 
         reqPoints: 10, 
-        description: talentText`Gives the Paladin a chance to deal additional Holy damage equal to 75% of normal weapon damage. Only on Seal can be active on the Paladin at any one time. Lasts 30 seconds. Unleashing this Seal's energy will judge an enemy, instantly causing 0 Holy damage, 143 if the target is stunned, incapacitated or disoriented.`, 
+        description: talentText`Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only on Seal can be active on the Paladin at any one time. Lasts 30 seconds. Unleashing this Seal's energy will judge an enemy, instantly causing 0 Holy damage, 143 if the target is stunned, incapacitated or disoriented.`, 
       },
       "Pursuit of Justice": {
         name: "Pursuit of Justice", 

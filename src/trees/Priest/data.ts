@@ -445,11 +445,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 15, 
         description: talentText`Increases spell damage and healing by up to ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          6,
+          12,
+          18,
+          24,
+          30,
         ]}% of your total Spirit.`, 
       },
       "Improved Prayer of Healing": {

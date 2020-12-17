@@ -461,6 +461,9 @@ export const data: TalentData = {
         description: talentText`Your Fire damage spell crits have a ${[
           5,
           10,
+          15,
+          20,
+          25,
         ]}% chance to make your next Scorch or Pyroblast spell cast instantly and cost no Mana.`, 
       },
       "Chain Reaction": {

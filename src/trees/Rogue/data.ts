@@ -795,7 +795,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}%.`, 
+        ]}%. While stealthed the effect is doubled.`, 
       },
       "Preparation": {
         name: "Preparation", 

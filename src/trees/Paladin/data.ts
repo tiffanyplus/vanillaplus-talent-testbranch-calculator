@@ -32,13 +32,13 @@ export const data: TalentData = {
         icon: icons["ability_golemthunderclap"], 
         maxRank: 5, 
         reqPoints: 0, 
-        description: talentText`Increases your strength by ${[
+        description: talentText`Increases your Strength and Health by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}`, 
+        ]}%.`, 
       },
       "Divine Intellect": {
         name: "Divine Intellect", 

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vanillaplus-talent-calculator/precache-manifest.7b530d69e2d35bb0052613ad76887af4.js"
+  "/vanillaplus-talent-calculator/precache-manifest.3007297bc96e9c4e00f03248fd6524f8.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -223,13 +223,13 @@ export const data: TalentData = {
         reqPoints: 25, 
         prereq: "Team Play", 
         arrows: [{dir: "down", from: "e1", to: "f1" }], 
-        description: talentText`Your pet gets Strength, Agility and Stamina equal to ${[
+        description: talentText`Your pet gets Attack Power, bonus to Critical strike chance and Stamina equal to ${[
           10,
           20,
           30,
           40,
           50,
-        ]}% of your Strength, Agility and Stamina. While your pet is active, you will regenerate ${[
+        ]}% of your Attack Power, Critical strike chance and Stamina.\n\nWhile your pet is active, you will regenerate ${[
           1,
           2,
           3,

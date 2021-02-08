@@ -467,7 +467,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to generate 1% of your total mana after being healed.`, 
+        ]}% chance to generate 2% of your total Mana after being healed.`, 
       },
       "Improved Righteous Fury": {
         name: "Improved Righteous Fury", 
@@ -745,13 +745,13 @@ export const data: TalentData = {
         icon: icons["ability_racial_avatar"], 
         maxRank: 5, 
         reqPoints: 20, 
-        description: talentText`Gives you a ${[
-          3,
-          6,
-          9,
+        description: talentText`Gives your critical strikes a ${[
+          4,
+          8,
           12,
-          15,
-        ]}% bonus to Physical and Holy damage you deal for 8 seconds after dealing a critical strike from a weapon swing, spell, or ability.`, 
+          16,
+          20,
+        ]}% chance to increase damage you deal by 3% for 8 sec. Stacks up to 5 times.`, 
       },
       "Repentance": {
         name: "Repentance", 

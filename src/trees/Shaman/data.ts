@@ -528,7 +528,7 @@ export const data: TalentData = {
           12,
           16,
           20,
-        ]}% chance to deal additional up to 300 Nature damage.(Scales with your level)`, 
+        ]}% chance to deal additional up to 240 Nature damage.(Scales with your level)`, 
       },
       "Shamanism": {
         name: "Shamanism", 
@@ -661,7 +661,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Tidal Mastery", 
         arrows: [{ dir: "down", from: "a2", to: "c2" }], 
-        description: talentText`Protects the caster from Fire spells and reduces the damage taken from physical attacks by 50%, but increases the time between attacks by 100%. Lasts 10 seconds.`, 
+        description: talentText`Protects the caster from Fire spells and reduces the damage taken from physical attacks by 50%, but reduces damage caused by 30%. Lasts 10 sec.`, 
       },
       "Spiritwalking": {
         name: "Spiritwalking", 

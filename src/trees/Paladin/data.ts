@@ -746,12 +746,12 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 20, 
         description: talentText`Gives your critical strikes a ${[
-          4,
-          8,
-          12,
-          16,
           20,
-        ]}% chance to increase damage you deal by 3% for 8 sec. Stacks up to 5 times.`, 
+          40,
+          60,
+          80,
+          100,
+        ]}% chance to increase damage you deal by 3% for 20 sec. Stacks up to 5 times.`, 
       },
       "Repentance": {
         name: "Repentance", 

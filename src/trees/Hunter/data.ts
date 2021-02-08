@@ -70,7 +70,7 @@ export const data: TalentData = {
         description: talentText`Gives the Mend Pet spell a ${[
           15,
           50,
-        ]}% chance of restoring 50 Focus and removing 1 Curse, Disease, Magic, Poison, or Fear effect from the pet each tick,`, 
+        ]}% chance of restoring 50 Focus and removing 1 Curse, Disease, Magic, Poison, or Fear effect from the pet each tick.`, 
       },
       "Aspect Mastery": {
         name: "Aspect Mastery", 
@@ -78,10 +78,10 @@ export const data: TalentData = {
         icon: icons["ability_hunter_aspectmastery"], 
         maxRank: 2, 
         reqPoints: 5,
-        description: talentText`Increases the effectiveness of your Aspect of the Best, Cheetah, Pack, and Wild by ${[
+        description: talentText`Increases the effectiveness of your Aspect of the Beast, Cheetah, Pack, and Wild by ${[
           25,
           50,
-        ]}% amd reduces the Mana cost of all your Aspects by ${[
+        ]}% and reduces the Mana cost of all your Aspects by ${[
           50,
           100,
         ]}%.`, 

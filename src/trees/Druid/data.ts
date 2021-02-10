@@ -508,15 +508,15 @@ export const data: TalentData = {
         icon: icons["ability_hunter_pet_cat"],
         maxRank: 3,
         reqPoints: 20,
-        description: talentText`Increases your attack power in Cat, Bear and Dire Bear Forms by ${[
+        description: talentText`Increases your melee attack power in Cat, Bear and Dire Bear Forms by ${[
           100,
           200,
           300,
-        ]}% of your level. Also, causes your attacks to ignore up to ${[
-          100,
-          200,
-          300,
-        ]} of your target's Armor. The amount of armor reduced scales with your level.`,
+        ]}% of your level. Also, increases Attack Rating skill by ${[
+          3,
+          6,
+          10,
+        ]}.`,
       },
       
       "Untamed Heart": {

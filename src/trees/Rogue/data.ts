@@ -621,10 +621,13 @@ export const data: TalentData = {
         ]}% and reduces cost of your distract by ${[
           50,
           100,
-        ]}%. Also reputation gain increased by ${[
+        ]}%. Also increases the amount of money you gain from pickpocketing by ${[
+          20,
+          40,
+        ]}% and reputation gains by ${[
           5,
           10,
-        ]}&`, 
+        ]}%.`, 
       },
       "Setup": {
         name: "Setup", 

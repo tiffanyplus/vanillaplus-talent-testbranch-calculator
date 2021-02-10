@@ -201,7 +201,7 @@ export const data: TalentData = {
         icon: icons["ability_druid_ferociousbite"], 
         maxRank: 1, 
         reqPoints: 20,
-        description: talentText`Send your pet into a rage causing 50% additional damage for 18 seconds. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.`, 
+        description: talentText`Send your pet into a rage causing 20% additional damage for 30 seconds. While enraged, the beast does not feel pity or remorse or fear and it cannot be stopped unless killed.`, 
       },
       "Savage Flurry": {
         name: "Savage Flurry", 
@@ -829,7 +829,7 @@ export const data: TalentData = {
         icon: icons["inv_axe_08"], 
         maxRank: 1, 
         reqPoints: 30,
-        description: talentText`Hurls an axe at a target, causing damage equal to 10% of your melee attack power and slowing the target's movement speed by 50% for 8 seconds. This attack always crits. It also interrupts spellcasting and prevents any spell in that school from being cast for 2 seconds.`, 
+        description: talentText`Hurls an axe at a target, causing damage equal to 10% of your melee attack power and slowing the target's movement speed by 50% for 8 seconds. This attack always crits. It also interrupts spellcasting and prevents any spell in that school from being cast for 4 seconds.`, 
       },
     },
   },

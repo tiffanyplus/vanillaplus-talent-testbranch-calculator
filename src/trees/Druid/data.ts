@@ -128,10 +128,10 @@ export const data: TalentData = {
         reqPoints: 10,
         description: talentText`Cause your Starfire and Moonfire spells to stun the target for 4 sec if the target is withing 8yds. Can occur once per ${[
           60,
+          55,
           50,
+          45,
           40,
-          30,
-          20,
         ]} sec.`,
       },
       
@@ -622,7 +622,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_unyeildingstamina"],
         maxRank: 2,
         reqPoints: 0,
-        description: talentText`You gain 20 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form. This effect can only occur once every ${[
+        description: talentText`You gain 15 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form. This effect can only occur once every ${[
           24,
           12,
         ]} sec.`,

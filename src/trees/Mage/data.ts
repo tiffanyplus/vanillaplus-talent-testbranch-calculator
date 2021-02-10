@@ -166,10 +166,10 @@ export const data: TalentData = {
       icon: icons["arcane_magic"], 
       maxRank: 2, 
       reqPoints: 15, 
-      description: talentText`Fives your Counterspell a ${[
+      description: talentText`Gives your Counterspell a ${[
         50,
         100,
-      ]}% chance to silence the target for 4 seconds, reduces the cooldown of your Blink by ${[
+      ]}% chance to silence the target for 4 seconds, reduces the cooldown of your Counterspell and Blink by ${[
         5,
         10,
       ]} secs, and increases the radius of your Arcane Explosion by ${[
@@ -459,11 +459,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 15, 
         description: talentText`Your Fire damage spell crits have a ${[
-          5,
-          10,
+          3,
+          6,
+          9,
+          12,
           15,
-          20,
-          25,
         ]}% chance to make your next Scorch or Pyroblast spell cast instantly and cost no Mana.`, 
       },
       "Chain Reaction": {
@@ -823,7 +823,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 25 seconds. Stacks up to 5 times.`, 
+        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 seconds. Stacks up to 10 times.`, 
       },
       "Ice Barrier": {
         name: "Ice Barrier", 

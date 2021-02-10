@@ -515,7 +515,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Death Wish",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`Attack the target, causing target equal to 50% of your attack power. In addition, your successful melee attacks have a 25% chance to drain 50 life from target enemy. This effect lasts 3 charges or 15 sec.`,
+        description: talentText`Attack the target causing damage equal to 50% of your attack power. In addition, your successful melee attacks have a 25% chance to drain 50 life from target enemy. This effect lasts 3 charges or 15 sec.`,
       },
       "Improved Bloodthirst": {
         name: "Improved Bloodthirst",

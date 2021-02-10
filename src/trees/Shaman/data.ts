@@ -552,7 +552,7 @@ export const data: TalentData = {
         reqPoints: 30, 
         prereq: "Bloodlust", 
         arrows: [{ dir: "down", from: "e2", to: "g2" }], 
-        description: talentText`Blasts a target with aftershock, consuming your shock spells and applies an effec based on consumed shock spells.\n\nFlame Shock - Instantly deals damage equal to 18 sec. of Flame Shock.\n\nEarth Shock - Break movement impairing effects for you and forces the target to focus attacks on you for 4 seconds.`, 
+        description: talentText`Blasts a target with aftershock, consuming your shock spells and applies an effects based on consumed shock spells.\n\nFlame Shock: instantly deals damage equal to 12 sec of Flame Shock.\n\nFrost Shock: stuns the target for 4 sec.\n\nEarth Shock: breaks movement impairing effects for you and forces the target to focus attacks on you for 5 sec.`, 
       },
     },
   },

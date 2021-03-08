@@ -170,9 +170,9 @@ export const data: TalentData = {
         50,
         100,
       ]}% chance to silence the target for 4 seconds, reduces the cooldown of your Counterspell and Blink by ${[
-        5,
         10,
-      ]} secs, and increases the radius of your Arcane Explosion by ${[
+        20,
+      ]}%, and increases the radius of your Arcane Explosion by ${[
         1,
         2,
       ]} yards.`, 
@@ -675,11 +675,11 @@ export const data: TalentData = {
           12,
           15,
         ]}% and reduces the threat caused by your Frost spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          6,
+          12,
+          18,
+          24,
+          30,
         ]}%.`, 
       },
       "Ice Block": {

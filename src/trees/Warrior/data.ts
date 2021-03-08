@@ -100,9 +100,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Increases the duration of your Hamstring by ${[
+          1,
+          2,
           3,
-          6,
-          9,
         ]} seconds and reduces the target's speed by an additional ${[
           5,
           10,
@@ -139,9 +139,9 @@ export const data: TalentData = {
         prereq: "Impale",
         arrows: [{ dir: "right", from: "c3", to: "c4"}],
         description: talentText`Your critical strikes cause the opponent to bleed, dealing ${[
-          15,
+          10,
+          20,
           30,
-          45,
         ]}% of your melee weapon's average damage over 12 sec. Stacks up to 5 times.`,
       },
       "Poleaxe Specialization": {
@@ -426,7 +426,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% melee damage bonus for 25 sec after being the victim of a critical strike. Stacks up to 10 times.`,
+        ]}% melee damage bonus for 30 sec after being the victim of a critical strike. Stacks up to 10 times.`,
       },
       "Improved Slam": {
         name: "Improved Slam",
@@ -499,7 +499,7 @@ export const data: TalentData = {
         reqPoints: 25,
         prereq: "Enrage",
         arrows: [{ dir: "down", from: "d3", to: "f3" }],
-        description: talentText`Increases your attack speed, chance to resist hostile spells and healing taken by 5% to 35%. At full health the bonus is 5% with a greater effect up to 35% if you are badly hurt. Max bonus health threshold: ${[
+        description: talentText`Increases your attack speed, chance to resist hostile spells and healing taken by 1% to 30%. At full health the bonus is 1% with a greater effect up to 30% if you are badly hurt. Max bonus health threshold: ${[
           1,
           10,
           20,
@@ -664,7 +664,7 @@ export const data: TalentData = {
         reqPoints: 10,
         prereq: "Improved Revenge",
         arrows: [{ dir: "down", from: "b4", to: "c4" }],
-        description: talentText`A brutal strike that deals weapon damage and stuns the opponent for 4 sec.`,
+        description: talentText`A brutal strike that deals weapon damage and stuns the opponent for 4 sec. This ability causes a high amount of threat.`,
       },
       "Mocker": {
         name: "Mocker",
@@ -710,11 +710,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 15,
         description: talentText`Increases the damage you deal with One-Handed Melee weapons by ${[
-          2,
-          4,
+          3,
           6,
-          8,
-          10,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Shield Toss": {
@@ -764,11 +764,11 @@ export const data: TalentData = {
           8,
           10,
         ]}% and increases healing taken by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%`,
       },
       "Butterfly Style": {
@@ -777,12 +777,12 @@ export const data: TalentData = {
         icon: icons["spell_nature_windfury"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases your Agility by ${[
-          6,
-          12,
-          18,
-          24,
-          30,
+        description: talentText`Increases your chances to dodge and to score a critical hit by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
         ]}%.`,
       },
                   

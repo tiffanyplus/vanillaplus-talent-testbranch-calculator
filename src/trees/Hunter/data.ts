@@ -224,11 +224,11 @@ export const data: TalentData = {
         prereq: "Team Play", 
         arrows: [{dir: "down", from: "e1", to: "f1" }], 
         description: talentText`Your pet gets Attack Power, bonus to Critical strike chance and Stamina equal to ${[
-          10,
-          20,
+          6,
+          12,
+          18,
+          24,
           30,
-          40,
-          50,
         ]}% of your Attack Power, Critical strike chance and Stamina.\n\nWhile your pet is active, you will regenerate ${[
           1,
           2,
@@ -453,11 +453,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 15,
         description: talentText`Your shots ignore up to ${[
-          6,
+          4,
+          8,
           12,
-          18,
-          24,
-          30,
+          16,
+          20,
         ]}% of your opponents armor and gives you a ${[
           2,
           4,

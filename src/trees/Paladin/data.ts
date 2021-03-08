@@ -751,7 +751,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to increase damage you deal by 3% for 20 sec. Stacks up to 5 times.`, 
+        ]}% chance to increase damage you deal by 3% for 30 sec. Stacks up to 5 times.`, 
       },
       "Repentance": {
         name: "Repentance", 
@@ -798,11 +798,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 25, 
         description: talentText`Allow ${[
-          10,
           20,
-          30,
           40,
-          50,
+          60,
+          80,
+          100,
         ]}% of your Mana regeneration to continue during and for 5 sec after Casting. In addition, reduces the Mana cost of your Holy Light spell by ${[
           10,
           20,

@@ -192,9 +192,9 @@ export const data: TalentData = {
           20,
           30,
         ]}% and reduces the duration of the Weakened Soul effect caused by your Power Word: Shield by ${[
-          1,
           2,
-          3,
+          4,
+          6,
         ]} sec.`, 
       },
       "Power Word: Requital": {
@@ -261,7 +261,7 @@ export const data: TalentData = {
         reqPoints: 30, 
         prereq: "Mental Strength", 
         arrows: [{ dir: "down", from: "d2", to: "g2"}], 
-        description: talentText`Infuses the target with power, increasing their spell damage and healing by 20%. Lasts 15 sec.`, 
+        description: talentText`Infuses the target with power, increasing their spell damage and healing by 15%. Lasts 30 sec.`, 
       },
     },
   },

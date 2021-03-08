@@ -165,11 +165,11 @@ export const data: TalentData = {
           80,
           100,
         ]}%. and for your feral abilites by ${[
-          7,
-          14,
-          21,
-          28,
-          35,
+          10,
+          20,
+          30,
+          40,
+          50,
         ]}%.`,
       },
       
@@ -256,18 +256,18 @@ export const data: TalentData = {
         prereq: "Nature's Grace",
         arrows: [{dir: "down", from: "e3", to: "f3"}],
         description: talentText`Your Wrath spell have a ${[
-          5,
-          10,
-          15,
+          4,
+          8,
+          12,
+          16,
           20,
-          25,
-        ]}% chance of your next Moonfire or Starfire by 30%, and your Moonfire or Starfire spells have a ${[
-          5,
-          10,
-          15,
+        ]}% chance of your next Moonfire or Starfire by 50%, and your Moonfire or Starfire spells have a ${[
+          4,
+          8,
+          12,
+          16,
           20,
-          25,
-        ]}% chance to increase critical strike chance of your next Wrath by 30%`
+        ]}% chance to increase critical strike chance of your next Wrath by 50%`
       },
       
       "Moonkin Aura": {
@@ -548,7 +548,7 @@ export const data: TalentData = {
           20,
           25,
           30,
-        ]}% for your next 2 attacks.`,
+        ]}% for your next 3 attacks.`,
       },
       
       "Survival Instincts": {
@@ -669,11 +669,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 5,
         description: talentText`Reduces the threat you generate by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          6,
+          12,
+          18,
+          24,
+          30,
         ]}% and increases the chance to avoid area of effect spells by an additional ${[
           6,
           12,
@@ -721,9 +721,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 10,
         description: talentText`Allows ${[
-          10,
+          7,
+          14,
           20,
-          30,
         ]}% of your Mana regeneration to continue while casting.`,
       },
 
@@ -738,9 +738,9 @@ export const data: TalentData = {
           40,
           60,
         ]}%. and reduces the chance listed spells will be dispelled by ${[
-          20,
-          40,
+          30,
           60,
+          90,
         ]}%`,
       },
 
@@ -772,9 +772,9 @@ export const data: TalentData = {
         maxRank: 3,
         reqPoints: 15,
         description: talentText`Increases the effect of your Rejuvenation spell by ${[
+          5,
           10,
-          20,
-          30,
+          15,
         ]}%.`,
       },
 
@@ -793,9 +793,9 @@ export const data: TalentData = {
           4,
           5,
         ]} sec. In addition, gives your spell effects additional ${[
-          20,
-          35,
-          50,
+          15,
+          30,
+          45,
         ]}% chance to resist dispel effects.`,
       },
 
@@ -840,9 +840,9 @@ export const data: TalentData = {
           30,
           45,
         ]}%.\nIn addition, your innervate casts grants you ${[
-          5,
-          10,
-          15,
+          7,
+          14,
+          20,
         ]} sec of Innervate effect.`,
       },
       

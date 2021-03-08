@@ -736,8 +736,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 15, 
         description: talentText`Increases the critical strike chance of your Searing Pain, Conflagrate and Shadowburn spells by ${[
+          3,
           5,
-          10,
         ]}%.`, 
       },
       "Improved Shadow Bolt": {
@@ -836,7 +836,7 @@ export const data: TalentData = {
         icon: icons["phoenix"], 
         maxRank: 1, 
         reqPoints: 30, 
-        description: talentText`Stuns the target for 4 sec. While stunned, the target receives an aditional 10% damage from all sources and cannot be healed.`, 
+        description: talentText`Stuns the target for 3 sec. While stunned, the target receives an aditional 10% damage from all sources and cannot be healed.`, 
       },
     },
   },

@@ -395,17 +395,15 @@ export const data: TalentData = {
         name: "Mortal Shots", 
         pos: "c3", 
         icon: icons["ability_piercedamage"], 
-        maxRank: 5, 
+        maxRank: 3, 
         reqPoints: 10, 
         prereq: "Lethal Shots", 
         arrows: [{ dir: "down", from: "b3", to: "c3" }], 
         description: talentText`Increases your ranged weapon critical strike damage bonus by ${[
-          6,
-          12,
-          18,
-          24,
-          30,
-        ]}%.`, 
+          10,
+          20,
+          30
+        ]}%.`,
       },
       "Hawk Eye": {
         name: "Hawk Eye", 
@@ -500,7 +498,7 @@ export const data: TalentData = {
         icon: icons["ability_golemstormbolt"], 
         maxRank: 1, 
         reqPoints: 20,
-        description: talentText`A short range shot that deals 50% of weapon damage and disorients the raget for 5 seconds. Any damage caused will remove the effect. Turns off your attack when used.`, 
+        description: talentText`A short-range shot that deals damage and disorients the raget for 5 seconds. Any damage caused will remove the effect. Turns off your attack when used.`, 
       },
       "Deadeye": {
         name: "Deadeye", 
@@ -517,11 +515,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 25,
         description: talentText`Increases your damage by ${[
-          4,
-          8,
+          3,
+          6,
+          9,
           12,
-          16,
-          20,
+          15,
         ]}% if youe've been standing still for ~10 seconds.`, 
       },
       "Ranged Weapon Specialization": {
@@ -612,19 +610,25 @@ export const data: TalentData = {
           30,
         ]}%.`, 
       },
-      "Improved Tracking": {
-        name: "Improved Tracking", 
+      "Survivalist": {
+        name: "Survivalist", 
         pos: "b2", 
-        icon: icons["ability_tracking"], 
+        icon: icons["spell_shadow_twilight"], 
         maxRank: 5, 
         reqPoints: 5,
-        description: talentText`While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, and Undead, all damage done and critical damage caused to those types by the Hunter is increased by ${[
-          1,
+        description: talentText`Decreases damage taken by ${[
           2,
-          3,
           4,
-          5,
-        ]}%. Also increases the effectiveness of Track Hidden.`, 
+          6,
+          8,
+          10,
+        ]}%. In addition, cures 1 Poison effect on you every ${[
+          60,
+          45,
+          30,
+          20,
+          10,
+        ]}`, 
       },
       "Improved Wing Clip": {
         name: "Improved Wing Clip", 
@@ -696,31 +700,19 @@ export const data: TalentData = {
           20,
         ]}%.`, 
       },
-      "Survivalist": {
-        name: "Survivalist", 
+      "Improved Tracking": {
+        name: "Improved Tracking", 
         pos: "c4", 
-        icon: icons["spell_shadow_twilight"], 
+        icon: icons["ability_tracking"], 
         maxRank: 5, 
         reqPoints: 10,
-        description: talentText`Increases total health by ${[
+        description: talentText`While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, and Undead, all damage done and critical damage caused to those types by the Hunter is increased by ${[
           2,
           4,
           6,
           8,
           10,
-        ]}%. In addition, gives your stings an additional ${[
-          5,
-          10,
-          15,
-          20,
-          25,
-        ]}% chance to resist dispel effects and you automatically dispel 1 Poison or Disease effect on you every ${[
-          60,
-          45,
-          30,
-          20,
-          10,
-        ]}`, 
+        ]}%. Also increases the effectiveness of Track Hidden.`, 
       },
       "Trapper": {
         name: "Trapper", 
@@ -765,11 +757,11 @@ export const data: TalentData = {
         icon: icons["spell_frost_frozendecay"], 
         maxRank: 3, 
         reqPoints: 20,
-        description: talentText`While affected by your Freezing Trap, the target receives and additional ${[
+        description: talentText`Physical attacks against the target, affected by your Freezing Trap, have an additional ${[
           5,
           10,
           15,
-        ]} damage from all sources. In addition, increases the movement speed reduction of your Frost Trap by ${[
+        ]}% chance to be critical. In addition, increases the movement speed reduction of your Frost Trap by ${[
           10,
           20,
           30,
@@ -807,7 +799,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to reveal a flaw in your target's defenses, increasing your melee and ranged damage by 5% for 24 seconds. Stacks up to 3 times.`, 
+        ]}% chance to reveal a flaw in your target's defenses, increasing the critical strike chance of attacks made against that target by an additional 5% for 24 seconds.`, 
       },
       "Lightning Reflexes": {
         name: "Lightning Reflexes", 
@@ -815,12 +807,12 @@ export const data: TalentData = {
         icon: icons["spell_nature_invisibilty"], 
         maxRank: 5, 
         reqPoints: 25,
-        description: talentText`Increases your Agility by ${[
+        description: talentText`Increases your attack speed and Agility by ${[
+          2,
           4,
+          6,
           8,
-          12,
-          16,
-          20,
+          10,
         ]}%.`, 
       },
       "Whirling Axe": {

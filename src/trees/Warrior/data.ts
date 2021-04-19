@@ -192,7 +192,7 @@ export const data: TalentData = {
         icon: icons["ability_rogue_slicedice"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`Your next 10 attacks strike an additional nearby opponent. Lasts 20 sec.`,
+        description: talentText`Your attacks strike an additional nearby opponent. Lasts 20 sec.`,
       },
       "Two-Handed Weapong Specialization": {
         name: "Two-Handed Weapon Specialization",
@@ -777,13 +777,21 @@ export const data: TalentData = {
         icon: icons["spell_nature_windfury"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases your chances to dodge and to score a critical hit by ${[
+        prereq: "One-Handed Weapon Specialization",
+        arrows: [{ dir: "down", from: "d4", to: "f3" }],
+        description: talentText`Increases your chances to dodge by ${[
           1,
           2,
           3,
           4,
           5,
-        ]}%.`,
+        ]}%. Also, your critical hits generate ${[
+          3,
+          6,
+          9,
+          12,
+          15,
+        ]}% more threat.`,
       },
                   
       "Constitution": {

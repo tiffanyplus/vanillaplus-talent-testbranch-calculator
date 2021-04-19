@@ -32,7 +32,7 @@ export const data: TalentData = {
         icon: icons["ability_golemthunderclap"], 
         maxRank: 5, 
         reqPoints: 0, 
-        description: talentText`Increases your Strength and Health by ${[
+        description: talentText`Increases your Strength by ${[
           2,
           4,
           6,
@@ -223,7 +223,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_searinglight"], 
         maxRank: 1, 
         reqPoints: 20, 
-        description: talentText`Blasts the target with Holy energy, causing 134 Holy damage to an enemy, or 134 healing to an ally.`, 
+        description: talentText`Blasts the target with Holy energy, causing 134 Holy damage to an enemy, or 134 healing to an ally. Heals twice amount on targets that have 20% or less health.`, 
       },
       "Inevitable Justice": {
         name: "Inevitable Justice", 
@@ -338,18 +338,15 @@ export const data: TalentData = {
           3,
         ]}%.`, 
       },
-      "Guardian's Favor": {
-        name: "Guardian's Favor", 
+      "Improved Defensive Auras": {
+        name: "Improved Defensive Auras", 
         pos: "b2", 
-        icon: icons["spell_holy_sealofprotection"], 
+        icon: icons["spell_holy_devotionaura"], 
         maxRank: 2, 
         reqPoints: 5, 
-        description: talentText`Increases the effect of your Blessing of Salvation and Blessing of Sanctuary by ${[
-          10,
-          20,
-        ]}%. Also increases the duration and reduces the Mana cost of your Blessings of Freedom, Protection, Sacrifice, Salvation, and Sanctuary by ${[
+        description: talentText`Increases the armor and resistance bonus of your Devotion and Resistance auras by ${[
+          25,
           50,
-          100,
         ]}%.`, 
       },
       "Redoubt": {
@@ -379,9 +376,9 @@ export const data: TalentData = {
           1,
           1.5,
         ]} sec and reduces its coolodwn by ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]} sec.`, 
       },
       "Dominance": {
@@ -428,15 +425,18 @@ export const data: TalentData = {
           30,
         ]} seconds.`, 
       },
-      "Improved Defensive Auras": {
-        name: "Improved Defensive Auras", 
+      "Guardian's Favor": {
+        name: "Guardian's Favor", 
         pos: "d1", 
-        icon: icons["spell_holy_devotionaura"], 
+        icon: icons["spell_holy_sealofprotection"], 
         maxRank: 2, 
         reqPoints: 15, 
-        description: talentText`Increases the armor and resistance bonus of your Devotion and Resistance auras by ${[
-          25,
+        description: talentText`Increases the effect of your Blessing of Salvation and Blessing of Sanctuary by ${[
+          10,
+          20,
+        ]}%. Also increases the duration and reduces the Mana cost of your Blessings of Freedom, Protection, Sacrifice, Salvation, and Sanctuary by ${[
           50,
+          100,
         ]}%.`, 
       },
       "Improved Concentration Aura": {
@@ -467,7 +467,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to generate 2% of your total Mana after being healed.`, 
+        ]}% chance to generate 1% of your total Mana after being healed.`, 
       },
       "Improved Righteous Fury": {
         name: "Improved Righteous Fury", 
@@ -491,16 +491,16 @@ export const data: TalentData = {
         arrows: [{ dir: "down", from: "c2", to: "e2"}], 
         description: talentText`Increases chance to block by 30% for 10 seconds, and deals 45 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 20% additional threat. Each block expends a charge. 4 charges.`, 
       },
-      "Anticipation": {
-        name: "Anticipation", 
+      "Unbreakability": {
+        name: "Unbreakability", 
         pos: "e3", 
-        icon: icons["spell_magic_lesserinvisibilty"], 
+        icon: icons["inv_shield_20"], 
         maxRank: 3, 
         reqPoints: 20, 
-        description: talentText`Reduces the chance you are hit by spells and ranged attacks by ${[
-          2,
-          4,
-          6,
+        description: talentText`Increases your total Health by ${[
+          5,
+          10,
+          15,
         ]}%.`, 
       },
       "Morale": {
@@ -641,27 +641,21 @@ export const data: TalentData = {
           6,
         ]}%.`, 
       },
-      "Blessed Strikes": {
-        name: "Blessed Strikes", 
+      "Crusade": {
+        name: "Crusade", 
         pos: "c2", 
-        icon: icons["spell_holy_blessedarm"], 
+        icon: icons["spell_holy_crusade"], 
         maxRank: 5, 
-        reqPoints: 10, 
+        reqPoints: 10,
         prereq: "Conviction", 
         arrows: [{ dir: "down", from: "a2", to: "c2" }], 
-        description: talentText`Causes your attacks to ignore up to ${[
-          60,
-          120,
-          180,
-          240,
-          300,
-        ]} of your target's Armor. The amount of Armor reduced scales with your level. Also, reduces the threat caused by all actions by ${[
-          4,
-          8,
+        description: talentText`Increases spell damage and healing by up to ${[
+          6,
           12,
-          16,
-          20,
-        ]}% except when under the effects of Righteous Fury.`, 
+          18,
+          24,
+          30,
+        ]}% of your total Strength.`, 
       },
       "Seal of Command": {
         name: "Seal of Command", 
@@ -761,19 +755,25 @@ export const data: TalentData = {
         reqPoints: 20, 
         description: talentText`Puts the enemy target in a state of meditation, incapacitating them and increasing their Mana regeneration. Lasts up to 60 seconds. Any damage caused will awaken the target. Only works against Humanoids.`, 
       },
-      "Crusade": {
-        name: "Crusade", 
+      "Blessed Strikes": {
+        name: "Blessed Strikes", 
         pos: "f1", 
-        icon: icons["spell_holy_crusade"], 
+        icon: icons["spell_holy_blessedarm"], 
         maxRank: 5, 
-        reqPoints: 25, 
-        description: talentText`Increases spell damage and healing by up to ${[
-          6,
+        reqPoints: 25,
+        description: talentText`Causes your attacks to ignore up to ${[
+          60,
+          120,
+          180,
+          240,
+          300,
+        ]} of your target's Armor. The amount of Armor reduced scales with your level. Also, reduces the threat caused by all actions by ${[
+          4,
+          8,
           12,
-          18,
-          24,
-          30,
-        ]}% of your total Strength.`, 
+          16,
+          20,
+        ]}% except when under the effects of Righteous Fury.`, 
       },
       "Improved Sanctity Aura": {
         name: "Improved Sanctity Aura", 

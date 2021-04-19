@@ -180,8 +180,8 @@ export const data: TalentData = {
         reqPoints: 15, 
         description: talentText`Your offensive spell crits will increase your chance to get a critical strike with all attacks and spells by 5% for ${[
           5,
-          8,
           10,
+          15,
         ]} seconds.`, 
       },
       "Improved Fire Totems": {
@@ -325,7 +325,7 @@ export const data: TalentData = {
         ]}% and has a ${[
           50,
           100,
-        ]}% chance to restore 3% of your Mana when a block occurs.`, 
+        ]}% chance to restore 1% of your Mana when a block occurs.`, 
       },
       "Guardian Totems": {
         name: "Guardian Totems", 
@@ -653,8 +653,8 @@ export const data: TalentData = {
           6,
         ]}%.`, 
       },
-      "Tidal Shield": {
-        name: "Tidal Shield", 
+      "Tidal Barrier": {
+        name: "Tidal Barrier", 
         pos: "c2", 
         icon: icons["spell_frost_wisp"], 
         maxRank: 1, 

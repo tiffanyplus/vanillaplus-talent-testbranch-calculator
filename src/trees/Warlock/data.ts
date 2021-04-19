@@ -78,9 +78,9 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 5,
         description: talentText`Increases the range of your Affliction spells by ${[
+          5,
           10,
-          20,
-        ]}% and reduces the chance for enemies to resist your Affliction spells by ${[
+        ]} yards and reduces the chance for enemies to resist your Affliction spells by ${[
           5,
           10,
         ]}%.`,
@@ -232,11 +232,11 @@ export const data: TalentData = {
           40,
           50,
         ]}% chance to resist dispel effects and increases the damage done by your Curse of Doom by ${[
-          10,
           20,
-          30,
           40,
-          50,
+          60,
+          80,
+          100,
         ]}%.`,
       },
       "Bubonic Trail": {
@@ -498,7 +498,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When active, 30% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 5% more damage. Lasts as long as the demon is active.`,
+        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. Lasts as long as the demon is active.`,
       },
       "Improved Enslave Demon": {
         name: "Improved Enslave Demon",
@@ -604,18 +604,18 @@ export const data: TalentData = {
         pos: "a2", 
         icon: icons["spell_shadow_deathpact"], 
         maxRank: 5, 
-        reqPoints: 0, description: talentText`Reduces the casting time of your Shadow Bolt and Searing Pain spells by ${[
+        reqPoints: 0, description: talentText`Reduces the casting time of your Shadow Bolt by ${[
           0.1,
           0.2,
           0.3,
           0.4,
           0.5,
-        ]} sec and your Sould Fire spell by ${[
-          0.6,
-          1.2,
-          1.8,
-          2.4,
-          3,
+        ]} sec and your Soul Fire spell by ${[
+          0.5,
+          1,
+          1.5,
+          2,
+          2.5,
         ]}sec.`, 
       },
       "Aftermath": {
@@ -707,7 +707,7 @@ export const data: TalentData = {
         description: talentText`Your spell critical strikes have a ${[
           50,
           100,
-        ]}% chance to restore 5 per level Mana to your demon.`, 
+        ]}% chance to restore 6 per level Mana to your demon.`, 
       },
       "Shadowburn": {
         name: "Shadowburn", 
@@ -724,9 +724,9 @@ export const data: TalentData = {
         maxRank: 3, 
         reqPoints: 15, 
         description: talentText`Increases the damage done by your Immolate by ${[
+          5,
           10,
-          20,
-          30,
+          15,
         ]}%.`, 
       },
       "Bring the Pain": {
@@ -752,8 +752,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to increase Shadow damage dealt to the target by 20% until 6 non-periodic damage sources are applied.\n
-        Effect lasts a maximum of 10 sec.`, 
+        ]}% chance to increase Shadow damage dealt to the target by 10% for 10 sec.`, 
       },
       "Pyroclasm": {
         name: "Pyroclasm", 

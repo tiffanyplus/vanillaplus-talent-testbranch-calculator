@@ -686,11 +686,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 15, 
         description: talentText`Increases your Shadow spell damage by ${[
+          1,
           2,
+          3,
           4,
-          6,
-          8,
-          10,
+          5,
         ]}% nad the effect of your Shadow Protection by ${[
           10,
           20,
@@ -739,11 +739,11 @@ export const data: TalentData = {
         icon: icons["spell_nature_focusedmind"], 
         maxRank: 5, 
         reqPoints: 25, description: talentText`Reduces the Mana cost of your Mind Blast, Mind Flay, Mind Control, and Mind Vision spells by ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          6,
+          12,
+          18,
+          24,
+          30,
         ]}%.`, 
       },
       "Improved Vampiric Embrace": {

@@ -6,10 +6,10 @@
     "main.css": "/vanillaplus-talent-calculator/static/css/main.1ed946fa.chunk.css",
     "main.js": "/vanillaplus-talent-calculator/static/js/main.645a5ebb.chunk.js",
     "main.js.map": "/vanillaplus-talent-calculator/static/js/main.645a5ebb.chunk.js.map",
-    "runtime-main.js": "/vanillaplus-talent-calculator/static/js/runtime-main.69106f77.js",
-    "runtime-main.js.map": "/vanillaplus-talent-calculator/static/js/runtime-main.69106f77.js.map",
-    "static/js/3.35a2cff2.chunk.js": "/vanillaplus-talent-calculator/static/js/3.35a2cff2.chunk.js",
-    "static/js/3.35a2cff2.chunk.js.map": "/vanillaplus-talent-calculator/static/js/3.35a2cff2.chunk.js.map",
+    "runtime-main.js": "/vanillaplus-talent-calculator/static/js/runtime-main.bc537665.js",
+    "runtime-main.js.map": "/vanillaplus-talent-calculator/static/js/runtime-main.bc537665.js.map",
+    "static/js/3.2ca4b646.chunk.js": "/vanillaplus-talent-calculator/static/js/3.2ca4b646.chunk.js",
+    "static/js/3.2ca4b646.chunk.js.map": "/vanillaplus-talent-calculator/static/js/3.2ca4b646.chunk.js.map",
     "static/js/4.8cff60de.chunk.js": "/vanillaplus-talent-calculator/static/js/4.8cff60de.chunk.js",
     "static/js/4.8cff60de.chunk.js.map": "/vanillaplus-talent-calculator/static/js/4.8cff60de.chunk.js.map",
     "static/js/5.2e4aef72.chunk.js": "/vanillaplus-talent-calculator/static/js/5.2e4aef72.chunk.js",
@@ -29,7 +29,7 @@
     "static/js/12.2dcca183.chunk.js": "/vanillaplus-talent-calculator/static/js/12.2dcca183.chunk.js",
     "static/js/12.2dcca183.chunk.js.map": "/vanillaplus-talent-calculator/static/js/12.2dcca183.chunk.js.map",
     "index.html": "/vanillaplus-talent-calculator/index.html",
-    "precache-manifest.002a9c5541fc62c1ed9d8c585c067dde.js": "/vanillaplus-talent-calculator/precache-manifest.002a9c5541fc62c1ed9d8c585c067dde.js",
+    "precache-manifest.aeb997c3b6055feb08135ec8ea7d4c36.js": "/vanillaplus-talent-calculator/precache-manifest.aeb997c3b6055feb08135ec8ea7d4c36.js",
     "service-worker.js": "/vanillaplus-talent-calculator/service-worker.js",
     "static/css/0.3f93acc5.chunk.css.map": "/vanillaplus-talent-calculator/static/css/0.3f93acc5.chunk.css.map",
     "static/css/main.1ed946fa.chunk.css.map": "/vanillaplus-talent-calculator/static/css/main.1ed946fa.chunk.css.map",
@@ -63,7 +63,7 @@
     "static/media/survival_instincts.jpg": "/vanillaplus-talent-calculator/static/media/survival_instincts.e0f72320.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69106f77.js",
+    "static/js/runtime-main.bc537665.js",
     "static/js/12.2dcca183.chunk.js",
     "static/css/main.1ed946fa.chunk.css",
     "static/js/main.645a5ebb.chunk.js"

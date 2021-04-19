@@ -799,7 +799,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to reveal a flaw in your target's defenses, increasing the critical strike chance of attacks made against that target by an additional 5% for 24 seconds.`, 
+        ]}% chance to reveal a flaw in your target's defenses, increasing the critical strike chance of attacks made against that target by an additional 5% for 15 seconds.`, 
       },
       "Lightning Reflexes": {
         name: "Lightning Reflexes", 

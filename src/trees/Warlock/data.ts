@@ -555,11 +555,11 @@ export const data: TalentData = {
         prereq: "Demonic Onslaught",
         arrows: [{ dir: "down", from: "c3", to: "f3" }],
         description: talentText`Demon's critical hits from a spell or abilities have a ${[
-          15,
-          30,
-          45,
-          60,
-          75,
+          8,
+          16,
+          24,
+          32,
+          40,
         ]}% chance to regenerate 15% of your total Mana over 15 sec. In addition your spell casts have a ${[
           2,
           4,

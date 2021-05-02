@@ -794,8 +794,8 @@ export const data: TalentData = {
           5,
         ]} sec. In addition, gives your spell effects additional ${[
           15,
-          30,
-          45,
+          20,
+          25,
         ]}% chance to resist dispel effects.`,
       },
 

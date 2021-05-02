@@ -576,7 +576,7 @@ export const data: TalentData = {
         reqPoints: 30,
         prereq: "Soul Link",
         arrows: [{ dir: "down", from: "e2", to: "g2" }],
-        description: talentText`When activated, sacrifices your summoned demon to grant you an effect based on the demon's type.\n\nImp - Shifts you out of phase with the world for 10 sec and increases your Fire damage by 15% for 5 min.\n\nVoidwalker - Shielding nearby group members, absorbing 1151 damage for 30 sec and restores 3% of your total health every 3 sec for 5 min,\n\nSuccubus - Increases your casting speed by 33% for 30 sec and increases your Shadow damage by 15% for 5 min.\n\nFelhunter - Protexts your from all spells for 8 sec and restores 3% of your total Mana every 3 sec for 5 min.`,
+        description: talentText`When activated, sacrifices your summoned demon to grant you an effect based on the demon's type.\n\nImp - Shifts you out of phase with the world for 10 sec and increases your Fire damage by 5% for 5 min.\n\nVoidwalker - Shielding nearby group members, absorbing 1151 damage for 30 sec and restores 3% of your total health every 3 sec for 5 min,\n\nSuccubus - Increases your casting speed by 33% for 30 sec and increases your Shadow damage by 5% for 5 min.\n\nFelhunter - Protexts your from all spells for 8 sec and restores 3% of your total Mana every 3 sec for 5 min.`,
       },
     },
   },

@@ -193,7 +193,7 @@ export const data: TalentData = {
         description: talentText`Your attacks have a ${[
           5,
           10
-        ]}% chance to invigorate your pet, instantly granting them 50 focus and freeing them from 1 Poison, Disease, Magic, Curse, or Fear effect. Your pet attacks have a chance to in spire you, reducing Mana cost of all your spells and abilities by 100% for 5 sec. ${["","More effective than Team Play (Rank 1)."]}`, 
+        ]}% chance to invigorate your pet, instantly granting them 50 focus and freeing them from 1 Poison, Disease, Magic, Curse, or Fear effect. Your pet attacks have a chance to inspire you, reducing Mana cost of your next spell or ability by 100% for 5 sec. ${["","More effective than Team Play (Rank 1)."]}`, 
       },
       "Bestial Wrath": {
         name: "Bestial Wrath", 

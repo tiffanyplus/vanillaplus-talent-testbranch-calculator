@@ -1,7 +1,7 @@
 # WoW Vanilla+ Talent Calculator
 
 CSS-grid based talent calculator  
-Check the progress so far: https://hawaiisa.github.io/vanillaplus-talent-calculator/
+Usable talent calculator hosted here: https://hawaiisa.github.io/vanillaplus-talent-calculator/
 ## Features
 
 - URL encoded app state (for shareable talent builds)

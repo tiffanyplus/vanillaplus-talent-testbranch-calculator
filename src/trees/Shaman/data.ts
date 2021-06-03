@@ -727,11 +727,11 @@ export const data: TalentData = {
           4,
           5,
         ]}%. Also reduces the Mana cost of your Frost Shock spell by ${[
-          6,
-          12,
-          18,
-          24,
+          10,
+          20,
           30,
+          40,
+          50,
         ]}%.`, 
       },
       "Restorative Totems": {

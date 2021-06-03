@@ -498,7 +498,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_gathershadows"],
         maxRank: 1,
         reqPoints: 20,
-        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. Lasts as long as the demon is active.`,
+        description: talentText`When active, 20% of all damage taken by the caster is taken by your Imp, Voidwalker, Succubus, or Felhunter demon instead. In addition, both the demon and master will inflict 5% more damage. Lasts as long as the demon is active.`,
       },
       "Improved Enslave Demon": {
         name: "Improved Enslave Demon",

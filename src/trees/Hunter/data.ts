@@ -682,7 +682,7 @@ export const data: TalentData = {
         icon: icons["inv_axe_02"], 
         maxRank: 1, 
         reqPoints: 10,
-        description: talentText`Increases your melee attack speed by 30%, but reduces your ranged attack speed by 30% and increases the shot time of your Aimed Shot and Multi-Shot by 1.5 sec.`, 
+        description: talentText`Increases your melee attack speed by 20%, but reduces your ranged attack speed by 20% and increases the shot time of your Aimed Shot and Multi-Shot by 1 sec.`, 
       },
       "Two-Handed Weapon Specialization": {
         name: "Two-Handed Weapon Specialization", 

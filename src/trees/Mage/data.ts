@@ -301,7 +301,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_brilliance"], 
         maxRank: 1, 
         reqPoints: 30, 
-        description: talentText`Generates 2% of total Mana every 10 sec to all party members within 30 yards.`, 
+        description: talentText`Generates 1% of total Mana every 10 sec to all party members within 30 yards.`, 
       },
     },
   },
@@ -823,7 +823,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 seconds. Stacks up to 10 times.`, 
+        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 seconds. Stacks up to 5 times.`, 
       },
       "Ice Barrier": {
         name: "Ice Barrier", 

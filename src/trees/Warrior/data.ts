@@ -626,8 +626,6 @@ export const data: TalentData = {
         icon: icons["spell_holy_ashestoashes"],
         maxRank: 1,
         reqPoints: 10,
-        prereq: "Improved Bloodrage",
-        arrows: [{ dir: "down", from: "a1", to: "c1" }],
         description: talentText`Heals yourself for 30% of your maximum health, and increases your maximum health by 30% for 20 sec.`,
       },
       "Shield Mastery": {
@@ -696,11 +694,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 15,
         description: talentText`Increases the damage you deal with One-Handed Melee weapons by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Defiance": {
@@ -787,11 +785,11 @@ export const data: TalentData = {
           4,
           5,
         ]}%. Also, your critical hits generate ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}% more threat.`,
       },
                   

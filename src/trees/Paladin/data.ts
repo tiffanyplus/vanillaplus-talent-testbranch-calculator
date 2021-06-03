@@ -247,18 +247,18 @@ export const data: TalentData = {
         icon: icons["spell_holy_proclaimchampion"], 
         maxRank: 5, 
         reqPoints: 25, 
-        description: talentText`Increases your Healing done by ${[
+        description: talentText`Gives your Flash of Light spells a ${[
+          20,
+          40,
+          60,
+          80,
+          100
+        ]}% chance to apply the Spark of Light effect. Spark of light reduces the cast time of your next Holy Light by 0.5 sec and increases its range by 3 yards, the effect stacks up to 5 times.\nAlso increases the critical effect chance of your Flash of Light by ${[
           2,
           4,
           6,
           8,
-          10,
-        ]}%, but reduces your Holy damage by ${[
-          1,
-          2,
-          3,
-          4,
-          5,
+          10
         ]}%.`, 
       },
       "Searing Light": {
@@ -268,17 +268,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 25, 
         description: talentText`Increases you Holy damage by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%, but reduces your healing done by ${[
-          1,
-          2,
           3,
-          4,
-          5,
+          6,
+          9,
+          12,
+          15,
         ]}%.`, 
       },
       "Inner Light": {
@@ -672,8 +666,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 10, 
         description: talentText`Increases the movement speed and mounted movement speed by ${[
+          5,
           10,
-          15,
         ]}%. This does not stack with other movement speed increasing effects.`, 
       },
       "Eye for an Eye": {
@@ -745,7 +739,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to increase damage you deal by 3% for 30 sec. Stacks up to 5 times.`, 
+        ]}% chance to increase damage you deal by 3% for 20 sec. Stacks up to 5 times.`, 
       },
       "Repentance": {
         name: "Repentance", 
@@ -823,7 +817,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_crusaderstrike2"], 
         maxRank: 1, 
         reqPoints: 30, 
-        description: talentText`A strike that deals weapon damage and consecrates your weapon, increasing your attack speed by 10% for 30 seconds, stacking up to 3 times.`, 
+        description: talentText`A strike that deals weapon damage and consecrates your weapon, increasing your attack speed by 5% for 30 seconds, stacking up to 7 times.`, 
       },
     },
   },

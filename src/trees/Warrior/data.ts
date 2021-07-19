@@ -343,7 +343,7 @@ export const data: TalentData = {
           15,
           20,
           25,
-        ]}% chance to generate an 5 Rage points when you deal melee damage with a weapon.`,
+        ]}% chance to generate an 5 Rage points when you swing or take damage.`,
       },
       "Improved Cleave": {
         name: "Improved Cleave",

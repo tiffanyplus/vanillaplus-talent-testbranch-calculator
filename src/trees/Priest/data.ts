@@ -773,7 +773,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to cause your target to be vulnerable by 2%, lasting 15 seconds. Stacks up to 5 times.`, 
+        ]}% chance to cause your target to be vulnerable by 1%, lasting 20 seconds. Stacks up to 10 times.`, 
       },
       "Shadowform": {
         name: "Shadowform", 

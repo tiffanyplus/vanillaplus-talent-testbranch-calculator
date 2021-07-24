@@ -312,7 +312,7 @@ export const data: TalentData = {
         description: talentText`Increases the effectiveness of your Demoralizing Roar by ${[
           20,
           40
-        ]}% and the damage caused by your Ferocious Bite by ${[
+        ]}% and the damage caused by your Ferocious Bite and Rip by ${[
           5,
           10,
         ]}%.`,
@@ -569,7 +569,7 @@ export const data: TalentData = {
           3,
           4,
           5,
-        ]}% of your maximum health. This effect can only occur once every 5 sec.`
+        ]}% of your maximum health. This effect can only occur once every 8 sec.`
       },
 
       "Leader of the Pack": {
@@ -654,11 +654,11 @@ export const data: TalentData = {
           0.4,
           0.5,
         ]} sec and increases you Mana regeneration by ${[
+          10,
           20,
+          30,
           40,
-          60,
-          80,
-          100,
+          50,
         ]}% while in Cat, Bear or Dire Bear form.`,
       },
       
@@ -709,7 +709,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the Druid with natural energy. Each of the Druid's melee attack has a chance to reduce the cost and cast time of your next damage or healing spell by 100%. Lasts 2 min.`,
+        description: talentText`Imbues the Druid with natural energy. Each of the Druid's melee attack has a chance to reduce the cost and cast time of your next damage or healing spell by 75%. Lasts 2 min.`,
       },
 
       "Reflection": {

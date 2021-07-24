@@ -739,7 +739,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to increase damage you deal by 3% for 20 sec. Stacks up to 5 times.`, 
+        ]}% chance to increase damage you deal by 3% for 15 sec. Stacks up to 5 times.`, 
       },
       "Repentance": {
         name: "Repentance", 

@@ -413,7 +413,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Shield Specialization", 
         arrows: [{ dir: "down", from: "a3", to: "c3" }], 
-        description: talentText`Increases Healing taken by 10% and chance to block by 30%. Lasts for 10 min or 20 attacks.`, 
+        description: talentText`Increases Healing taken by 15% and chance to block by 30%. Lasts for 10 min or 20 attacks.`, 
       },
       "Weapon Mastery": {
         name: "Weapon Mastery", 
@@ -460,7 +460,10 @@ export const data: TalentData = {
         icon: icons["spell_nature_spiritwolf"], 
         maxRank: 2, 
         reqPoints: 15, 
-        description: talentText`Reduces the cast time of your Ghost Wolf spell by ${[
+        description: talentText`Reduces the Mana cost of your Ghost Wolf spell by ${[
+          50,
+          100
+        ]}% and cast time by ${[
           1,
           2,
         ]} sec.`, 
@@ -811,7 +814,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to increase the effect of subsequent Healing Wave spells on that target by 3% for 20 seconds. This effect will stack up to 5 times.`, 
+        ]}% chance to increase the effect of subsequent Healing Wave spells on that target by 3% for 30 seconds. This effect will stack up to 5 times.`, 
       },
       "Meditation": {
         name: "Meditation", 
@@ -820,11 +823,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 25, 
         description: talentText`Allows ${[
-          6,
-          12,
-          18,
-          24,
+          10,
+          20,
           30,
+          40,
+          50,
         ]}% of you Mana regeneration to continue while casting.`, 
       },
       "Cleansing Wave": {

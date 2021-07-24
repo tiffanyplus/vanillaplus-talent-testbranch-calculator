@@ -154,9 +154,9 @@ export const data: TalentData = {
           4,
           6,
         ]}% and increases the chance your pets avoid area of effect spells by an additional ${[
-          20,
-          40,
+          30,
           60,
+          90,
         ]}%.`, 
       },
       "Bestial Discipline": {
@@ -749,7 +749,7 @@ export const data: TalentData = {
           10,
           20,
           30,
-        ]}% chance to restore 90 mana.`, 
+        ]}% chance to restore 120 mana.`, 
       },
       "Deep Freeze": {
         name: "Deep Freeze", 

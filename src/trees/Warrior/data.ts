@@ -603,7 +603,10 @@ export const data: TalentData = {
         icon: icons["ability_warrior_shieldbash"],
         maxRank: 2,
         reqPoints: 5,
-        description: talentText`Gives your Shield Bash ability a ${[
+        description: talentText`Reduces the cost of your Shield Bash by ${[
+          5,
+          10,
+        ]} rage points and gives it a ${[
           50,
           100,
         ]}% chance to silence the target for 6 sec.`,

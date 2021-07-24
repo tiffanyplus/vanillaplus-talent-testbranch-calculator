@@ -222,8 +222,8 @@ export const data: TalentData = {
         prereq: "Arcane Power", 
         arrows: [{ dir: "right", from: "e2", to: "e3" }], 
         description: talentText`Increases the critical strike damage bonus of your Arcane spells by ${[
+          25,
           50,
-          100,
         ]}%.`, 
       },
       "Arcane Mind": {
@@ -767,7 +767,7 @@ export const data: TalentData = {
         reqPoints: 20, 
         prereq: "Ice Block", 
         arrows: [{ dir: "down", from: "c1", to: "e1"}], 
-        description: talentText`Protect the firendly target with a mirror of ice. The mirror reflects spells cast for 8 seconds.`, 
+        description: talentText`Protect the firendly target with a mirror of ice. The mirror reflects spells cast for 10 seconds.`, 
       },
       "Cold Snap": {
         name: "Cold Snap", 
@@ -823,7 +823,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 seconds. Stacks up to 5 times.`, 
+        ]}% chance to apply the Winters Chill effect, which increases the chance a Frost spell will critically hit the target by 1% for 20 seconds. Stacks up to 10 times.`, 
       },
       "Ice Barrier": {
         name: "Ice Barrier", 

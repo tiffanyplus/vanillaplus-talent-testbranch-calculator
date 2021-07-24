@@ -92,7 +92,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_decisivestrike"], 
         maxRank: 1, 
         reqPoints: 10, 
-        description: talentText`Your finishing moves have a 20% chance per combo point to restore 25 energy.`, 
+        description: talentText`Your finishing moves have a 20% chance per combo point to restore 35 energy.`, 
       },
       "Lethality": {
         name: "Lethality", 
@@ -376,7 +376,10 @@ export const data: TalentData = {
         icon: icons["ability_kick"], 
         maxRank: 2, 
         reqPoints: 10, 
-        description: talentText`Gives your kick ability a ${[
+        description: talentText`Reduces the cost of your Kick by ${[
+          10,
+          20,
+        ]} Energy and gives it a ${[
           50,
           100,
         ]}% chance to silence the target for 3 seconds.`, 
@@ -555,8 +558,8 @@ export const data: TalentData = {
           90,
         ]}% chance to return to stealth mode after using your Sap ability. In addition, reduces the Energy cost of your Sap ability by ${[
           10,
-          15,
           20,
+          30,
         ]}.`, 
       },
       "Master of Deception": {

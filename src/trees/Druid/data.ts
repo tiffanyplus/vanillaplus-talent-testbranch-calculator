@@ -709,7 +709,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_crystalball"],
         maxRank: 1,
         reqPoints: 10,
-        description: talentText`Imbues the Druid with natural energy. Each of the Druid's melee attack has a chance to reduce the cost and cast time of your next damage or healing spell by 75%. Lasts 2 min.`,
+        description: talentText`Imbues the Druid with natural energy. Each of the Druid's melee attack has a chance to reduce the cost and cast time of your next damage or healing spell by 75%. Lasts 5 min.`,
       },
 
       "Reflection": {

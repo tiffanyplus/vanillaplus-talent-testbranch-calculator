@@ -96,7 +96,7 @@ export const data: TalentData = {
         ]}% chance to increase your resistance to Interrupt effects by ${[
           15,
           30,
-        ]}% and to become immune to melee and ranged critical strikes for 5 seconds after being the victim of a critical strike.`, 
+        ]}% and to become immune to melee and ranged critical strikes for next 2 attacks or 5 seconds after being the victim of a critical strike.`, 
       },
       "Improved Power Word: Fortitude": {
         name: "Improved Power Word: Fortitude", 
@@ -613,8 +613,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 10, 
         description: talentText`Reduces the cooldown of your Psychic Scream spell by ${[
-          10,
-          20,
+          15,
+          30,
         ]} sec. Also increases the duration by ${[
           1,
           2,

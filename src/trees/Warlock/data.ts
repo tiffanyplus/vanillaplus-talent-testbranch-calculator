@@ -520,12 +520,12 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowpact"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Reduces physical damage taken by ${[
-          2,
-          4,
-          6,
+        description: talentText`Grants both the Warlock and the summoned demon an effect as long as that demon is active.\n\nImp - Reduces threat caused by ${[
           8,
-          10,
+          16,
+          24,
+          32,
+          40,
         ]}%.\n\nVoidwalker - Reduces physical physical damage taken by ${[
           2,
           4,

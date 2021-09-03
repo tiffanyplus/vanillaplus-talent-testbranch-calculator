@@ -664,7 +664,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Tidal Mastery", 
         arrows: [{ dir: "down", from: "a2", to: "c2" }], 
-        description: talentText`Protects the caster from Fire spells and reduces the damage taken from physical attacks by 50%, but reduces damage caused by 30%. Lasts 10 sec.`, 
+        description: talentText`Reduces the damage taken from physical attacks and Fire spells by 50%, but reduces damage caused by 30%. Lasts 10 seconds.`, 
       },
       "Spiritwalking": {
         name: "Spiritwalking", 

@@ -56,8 +56,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 5, 
         description: talentText`Increases movement and mounted speed by ${[
-          4,
-          8,
+          5,
+          10,
         ]}%. This does not stack with other movement speed increasing effects.`, 
       },
       "Improved Inner Fire": {

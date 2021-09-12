@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35d01ae1da228b5d65ba0e56350ff9c0",
+    "revision": "2480ecc671cb0beae61f253b66e3c669",
     "url": "/vanillaplus-talent-calculator/index.html"
   },
   {
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vanillaplus-talent-calculator/static/js/4.90ceaf34.chunk.js"
   },
   {
-    "revision": "c5199738ae37da6fa29e",
-    "url": "/vanillaplus-talent-calculator/static/js/5.95ae7fc3.chunk.js"
+    "revision": "ada10d6954f21d56f2de",
+    "url": "/vanillaplus-talent-calculator/static/js/5.8548f205.chunk.js"
   },
   {
     "revision": "af81d820524a28972870",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vanillaplus-talent-calculator/static/js/main.645a5ebb.chunk.js"
   },
   {
-    "revision": "90582b4f1898dacfa006",
-    "url": "/vanillaplus-talent-calculator/static/js/runtime-main.70dd2fc7.js"
+    "revision": "b6a1bd417a8fe4a5fb85",
+    "url": "/vanillaplus-talent-calculator/static/js/runtime-main.873e4214.js"
   },
   {
     "revision": "68b29a926e1bebd38e63343d7305e18b",

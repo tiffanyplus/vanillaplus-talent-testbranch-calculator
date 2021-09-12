@@ -49,7 +49,7 @@ export const data: TalentData = {
         icon: icons["spell_ice_magicdamage"],
         maxRank: 3, 
         reqPoints: 0, 
-        description: talentText`Reduces the chance that the opponent cna resist your Frost and Fire spells by ${[
+        description: talentText`Reduces the chance that the opponent can resist your Frost and Fire spells by ${[
           2,
           4,
           6,

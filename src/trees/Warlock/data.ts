@@ -433,11 +433,11 @@ export const data: TalentData = {
           20,
           25,
         ]}% and your total Intellect by ${[
-          2,
-          4,
+          3,
           6,
-          8,
-          10,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Master Summoner": {
@@ -469,11 +469,11 @@ export const data: TalentData = {
           20,
           25,
         ]}% and your total Stamina by ${[
-          2,
-          4,
+          3,
           6,
-          8,
-          10,
+          9,
+          12,
+          15,
         ]}%.`,
       },
       "Improved Felhunter": {

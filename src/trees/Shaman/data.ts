@@ -63,10 +63,10 @@ export const data: TalentData = {
         description: talentText`Increases the health of your Stoneclaw Totem by ${[
           150,
           300,
-        ]}%, the radius of your Earthbind Totem by ${[
-          2,
-          4,
-        ]} yards and the duration of your Earth Shock interruption by ${[
+        ]}%, the effect of your Earthbind Totem by ${[
+          60,
+          70,
+        ]}% and the duration of your Earth Shock interruption by ${[
           0.5,
           1,
         ]} sec.`, 
@@ -602,10 +602,10 @@ export const data: TalentData = {
         icon: icons["spell_nature_nullward"], 
         maxRank: 2, 
         reqPoints: 0, 
-        description: talentText`The radius of your Totems that affect friendly targets is increased by ${[
-          5,
-          10,
-        ]} yards.`, 
+        description: talentText`The radius of your totems is increased by ${[
+          25,
+          50,
+        ]}%.`, 
       },
       "Improved Healing Wave": {
         name: "Improved Healing Wave", 

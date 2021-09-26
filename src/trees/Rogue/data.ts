@@ -412,10 +412,10 @@ export const data: TalentData = {
       "Close Quarters Combat": {
         name: "Close Quarters Combat", 
         pos: "c4", 
-        icon: icons["inv_weapon_shortblade_05"], 
+        icon: icons["inv_gauntlets_04"], 
         maxRank: 5, 
         reqPoints: 10, 
-        description: talentText`Increases your chance to get a critical strike with Fist and Dagger weapons by ${[
+        description: talentText`Increases your chance to get a critical strike with Axe, Fist and Dagger weapons by ${[
           1,
           2,
           3,

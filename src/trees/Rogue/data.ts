@@ -474,7 +474,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_punishingblow"], 
         maxRank: 1, 
         reqPoints: 20, 
-        description: talentText`Your next 15 attacks strike an additional nearby opponent. Lasts 20 sec.`, 
+        description: talentText`Your attacks strike an additional nearby opponent. Lasts 20 seconds.`, 
       },
       "Steadfast Determination": {
         name: "Steadfast Determination", 

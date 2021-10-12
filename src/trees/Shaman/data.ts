@@ -435,7 +435,7 @@ export const data: TalentData = {
         icon: icons["spell_fire_enchantweapon"], 
         maxRank: 2, 
         reqPoints: 15, 
-        description: talentText`Increases the effect and reduces the Mana cost of your Windfure and Flametongue Totems by ${[
+        description: talentText`Increases the effect and reduces the Mana cost of your Windfury and Flametongue Totems by ${[
           25,
           50,
         ]}%.`, 

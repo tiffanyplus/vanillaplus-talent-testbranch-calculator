@@ -320,17 +320,17 @@ export const data: TalentData = {
           30,
         ]}%.`, 
       },
-      "Precision": {
-        name: "Precision", 
+      "Vindication": {
+        name: "Vindication", 
         pos: "b1", 
-        icon: icons["ability_rogue_ambush"], 
+        icon: icons["spell_holy_vindication"], 
         maxRank: 3, 
         reqPoints: 5, 
-        description: talentText`Increases your chance to hit with melee attack and spells by ${[
-          1,
-          2,
-          3,
-        ]}%.`, 
+        description: talentText`Gives the Paladin's damaging melee attacks a chance to remove 1 magic effect from the target and to reduce the target's stats by 20% for ${[
+          10,
+          20,
+          30,
+        ]} seconds.`, 
       },
       "Improved Defensive Auras": {
         name: "Improved Defensive Auras", 
@@ -381,7 +381,7 @@ export const data: TalentData = {
         icon: icons["spell_nature_reincarnation"], 
         maxRank: 1, 
         reqPoints: 10, 
-        prereq: "Precision", 
+        prereq: "Vindication", 
         arrows: [{ dir: "down", from: "b1", to: "c1" }], 
         description: talentText`Degenerates the movement and attack capabilities of nearby opponents by 15%.`, 
       },
@@ -407,17 +407,19 @@ export const data: TalentData = {
           10,
         ]}%.`, 
       },
-      "Vindication": {
-        name: "Vindication", 
+      "Precision": {
+        name: "Precision", 
         pos: "c4", 
-        icon: icons["spell_holy_vindication"], 
-        maxRank: 3, 
-        reqPoints: 10, 
-        description: talentText`Gives the Paladin's damaging melee attacks a chance to remove 1 magic effect from the target and to reduce the target's stats by 20% for ${[
-          10,
-          20,
-          30,
-        ]} seconds.`, 
+        icon: icons["ability_rogue_ambush"], 
+        maxRank: 5,
+        reqPoints: 10,
+        description: talentText`Increases your chance to hit with melee attack and spells by ${[
+          1,
+          2,
+          3,
+          4,
+          5,
+        ]}%.`, 
       },
       "Guardian's Favor": {
         name: "Guardian's Favor", 
@@ -553,7 +555,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_crusader"], 
         maxRank: 1, 
         reqPoints: 30, 
-        description: talentText`Fills the Paladin with divine fury for 30 seconds, causing melee attacks to deal additional physical damage equal to 20% of normal weapon damage to all targets in front of the Paladin. Only one Seal can be active on the Paladin at any one time. Unleashing this Seal's energy will judge an enemy for 4 seconds, forcing the target to attack you. Has no effect if the target is already attacking you.`, 
+        description: talentText`Fills the Paladin with divine fury for 30 seconds, causing melee attacks to deal additional physical damage equal to 30% of normal weapon damage to all targets in front of the Paladin. Only one Seal can be active on the Paladin at any one time.\n\nUnleashing this Seal's energy will judge an enemy for 4 seconds, forcing the target to attack you. Has no effect if the target is already attacking you.`, 
       },
     },
   },

@@ -69,7 +69,7 @@ export const data: TalentData = {
         reqPoints: 5,
         description: talentText`Gives the Mend Pet spell a ${[
           15,
-          50,
+          30,
         ]}% chance of restoring 50 Focus and removing 1 Curse, Disease, Magic, Poison, or Fear effect from the pet each tick.`, 
       },
       "Aspect Mastery": {
@@ -251,7 +251,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to gain a 30% attack speed increase for the next 3 attacks or for 8 seconds after dealing a critical strike.`, 
+        ]}% chance to gain a 30% attack speed increase for the next 5 attacks or for 15 seconds after dealing a critical strike.`, 
       },
       "Kill Command": {
         name: "Kill Command", 

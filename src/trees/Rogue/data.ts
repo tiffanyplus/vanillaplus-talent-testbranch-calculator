@@ -81,9 +81,6 @@ export const data: TalentData = {
         description: talentText`Increase the duration of your Slice and Dice, Rupture, and Expose Armor abilities by ${[
           25,
           50,
-        ]}%. In addition, increases the armor reduced by your Expose Armor ability by ${[
-          25,
-          50,
         ]}%.`, 
       },
       "Relentless Strikes": {
@@ -258,7 +255,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to reduce the target's stats by 1% and increase your Agility by 1%. Lasts 30 seconds, stacks up to 30 times.`, 
+        ]}% chance to reduce the target's stats by 1% and increase your Agility by 1%. Lasts 15 seconds, stacks up to 30 times.`, 
       },
       "Vigor": {
         name: "Vigor", 
@@ -423,21 +420,18 @@ export const data: TalentData = {
           5,
         ]}%.`, 
       },
-      "Physical Prowess": {
-        name: "Physical Prowess", 
+      "Steadfast Determination": {
+        name: "Steadfast Determination", 
         pos: "d1", 
-        icon: icons["spell_nature_strength"], 
-        maxRank: 2, 
-        reqPoints: 15, 
-        description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
-          1,
-          2,
-        ]} minute${["","s"]} and increases your strength by ${[
-          25,
-          50,
-        ]}% and Stamina by ${[
+        icon: icons["spell_nature_focusedmind"], 
+        maxRank: 5, 
+        reqPoints: 20, 
+        description: talentText`Increases your chance to resist Stun, Fear and Charm effects by an additional ${[
           5,
           10,
+          15,
+          20,
+          25,
         ]}%.`, 
       },
       "Mace Specialization": {
@@ -476,18 +470,21 @@ export const data: TalentData = {
         reqPoints: 20, 
         description: talentText`Your attacks strike an additional nearby opponent. Lasts 20 seconds.`, 
       },
-      "Steadfast Determination": {
-        name: "Steadfast Determination", 
+      "Physical Prowess": {
+        name: "Physical Prowess", 
         pos: "e3", 
-        icon: icons["spell_nature_focusedmind"], 
-        maxRank: 5, 
-        reqPoints: 20, 
-        description: talentText`Increases your chance to resist Stun, Fear and Charm effects by an additional ${[
+        icon: icons["spell_nature_strength"], 
+        maxRank: 2, 
+        reqPoints: 15, 
+        description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
+          1,
+          2,
+        ]} minute${["","s"]} and increases your strength by ${[
+          25,
+          50,
+        ]}% and Stamina by ${[
           5,
           10,
-          15,
-          20,
-          25,
         ]}%.`, 
       },
       "Battle Rush": {
@@ -677,11 +674,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 10, 
         description: talentText`Increases your speed while stealthed by ${[
-          3,
-          6,
-          9,
-          12,
+          5,
+          10,
           15,
+          20,
+          25,
         ]} and reduces the cooldown of your Stealth ability by ${[
           1,
           2,

@@ -717,7 +717,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_unsummonbuilding"], 
         maxRank: 1, 
         reqPoints: 20, 
-        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 20% of any Shadow spell damage you deal for 60 seconds.`, 
+        description: talentText`Afflicts your target with Shadow energy that causes all party members to be healed for 15% of any Shadow spell damage you deal for 60 seconds.`, 
       },
       "Blur": {
         name: "Blur", 

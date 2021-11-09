@@ -425,7 +425,7 @@ export const data: TalentData = {
         pos: "d1", 
         icon: icons["spell_nature_focusedmind"], 
         maxRank: 5, 
-        reqPoints: 20, 
+        reqPoints: 15, 
         description: talentText`Increases your chance to resist Stun, Fear and Charm effects by an additional ${[
           5,
           10,
@@ -475,7 +475,7 @@ export const data: TalentData = {
         pos: "e3", 
         icon: icons["spell_nature_strength"], 
         maxRank: 2, 
-        reqPoints: 15, 
+        reqPoints: 20, 
         description: talentText`Reduces the cooldown of your Sprint and Evasion abilities by ${[
           1,
           2,

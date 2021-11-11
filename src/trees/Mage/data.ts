@@ -62,8 +62,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 0, 
         description: talentText`Reduces your target's resistance to all your spells by ${[
+          5,
           10,
-          20,
         ]} and reduces the threat caused by your Arcane spells by ${[
           25,
           50,
@@ -833,7 +833,7 @@ export const data: TalentData = {
         reqPoints: 30, 
         prereq: "Cold Snap", 
         arrows: [{ dir: "down", from: "e2", to: "g2" }], 
-        description: talentText`Instantly shields you, absorbing 438 damage. Lasts 60 seconds. While the shield holds, spells will not be interrupted.`, 
+        description: talentText`Instantly shields a friendly target, absorbing 438 damage. Lasts 60 seconds. While the shield holds, spells will not be interrupted.`, 
       },
       "Improved Ice Shields": {
         name: "Improved Ice Shields", 

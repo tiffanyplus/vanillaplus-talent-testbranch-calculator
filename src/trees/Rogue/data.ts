@@ -427,11 +427,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 15, 
         description: talentText`Increases your chance to resist Stun, Fear and Charm effects by an additional ${[
-          5,
-          10,
-          15,
-          20,
-          25,
+          7,
+          14,
+          21,
+          28,
+          35,
         ]}%.`, 
       },
       "Mace Specialization": {

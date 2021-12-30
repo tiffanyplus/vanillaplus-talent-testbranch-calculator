@@ -694,10 +694,9 @@ export const data: TalentData = {
         arrows: [{ dir: "right", from: "c2", to: "c3"}], 
         description: talentText`Increases the damage you deal with two-handed melee weapons by ${[
           4,
+          6,
           8,
-          12,
-          16,
-          20,
+          10,
         ]}%.`, 
       },
       "Improved Tracking": {
@@ -758,9 +757,9 @@ export const data: TalentData = {
         maxRank: 3, 
         reqPoints: 20,
         description: talentText`Physical attacks against the target, affected by your Freezing Trap, have an additional ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}% chance to be critical. In addition, increases the movement speed reduction of your Frost Trap by ${[
           10,
           20,

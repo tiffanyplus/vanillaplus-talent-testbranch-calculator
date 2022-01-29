@@ -63,13 +63,10 @@ export const data: TalentData = {
         description: talentText`Increases the health of your Stoneclaw Totem by ${[
           150,
           300,
-        ]}%, the effect of your Earthbind Totem by ${[
-          60,
-          70,
-        ]}% and the duration of your Earth Shock interruption by ${[
-          0.5,
-          1,
-        ]} sec.`, 
+        ]}% and the effect duration of your Earthbind Totem and Earth Shock by ${[
+          25,
+          50,
+        ]}%.`, 
       },
       "Elemental Warding": {
         name: "Elemental Warding", 
@@ -555,7 +552,7 @@ export const data: TalentData = {
         reqPoints: 30, 
         prereq: "Bloodlust", 
         arrows: [{ dir: "down", from: "e2", to: "g2" }], 
-        description: talentText`Blasts a target with aftershock, consuming your shock spells and applies an effects based on consumed shock spells.\n\nFlame Shock: instantly deals damage equal to 15 sec of Flame Shock.\n\nFrost Shock: stuns the target for 4 sec.\n\nEarth Shock: breaks movement impairing effects for you and forces the target to focus attacks on you for 5 sec.`, 
+        description: talentText`Blasts a target with aftershock, consuming your shock spells and applies an effects based on consumed shock spells.\n\nFlame Shock: instantly deals damage equal to 15 sec of Flame Shock.\n\nFrost Shock: stuns the target for 3 sec.\n\nEarth Shock: breaks movement impairing effects for you and forces the target to focus attacks on you for 5 sec.`, 
       },
     },
   },
@@ -603,8 +600,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 0, 
         description: talentText`The radius of your totems is increased by ${[
-          25,
-          50,
+          10,
+          20,
         ]}%.`, 
       },
       "Improved Healing Wave": {
@@ -639,9 +636,9 @@ export const data: TalentData = {
         maxRank: 3, 
         reqPoints: 5, 
         description: talentText`Reduces the threat you generate by ${[
-          5,
           10,
-          15,
+          20,
+          30,
         ]}%.`, 
       },
       "Nature's Guardian": {
@@ -673,8 +670,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 10, 
         description: talentText`Reduces the chance you are hit by melee attacks by ${[
-          3,
-          6,
+          2,
+          4,
         ]}%. In addition, reduces the cooldown of your Astral Recall and Reincarnation spells by ${[
           15,
           30,

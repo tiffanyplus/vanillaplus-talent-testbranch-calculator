@@ -253,7 +253,7 @@ export const data: TalentData = {
           60,
           80,
           100
-        ]}% chance to apply the Spark of Light effect. Spark of light reduces the cast time of your next Holy Light by 0.5 sec and increases its range by 3 yards, the effect stacks up to 5 times.\nAlso increases the critical effect chance of your Flash of Light by ${[
+        ]}% chance to apply the Spark of Light effect. Spark of light reduces the cast time of your next Holy Light by 0.25 sec and increases its range by 2 yards, the effect stacks up to 10 times.\nAlso increases the critical effect chance of your Flash of Light by ${[
           2,
           4,
           6,
@@ -313,11 +313,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 0, 
         description: talentText`Increases the amount of damage absorbed by your shield by ${[
-          6,
-          12,
-          18,
-          24,
+          10,
+          20,
           30,
+          40,
+          50,
         ]}%.`, 
       },
       "Vindication": {
@@ -326,7 +326,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"], 
         maxRank: 3, 
         reqPoints: 5, 
-        description: talentText`Gives the Paladin's damaging melee attacks a chance to remove 1 magic effect from the target and to reduce the target's stats by 20% for ${[
+        description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's stats by ${[
           10,
           20,
           30,
@@ -395,10 +395,10 @@ export const data: TalentData = {
       },
       "One-Handed Weapon Specialization": {
         name: "One-Handed Weapon Specialization", 
-        pos: "c3", 
+        pos: "e3", 
         icon: icons["inv_sword_20"], 
         maxRank: 5, 
-        reqPoints: 10, 
+        reqPoints: 20, 
         description: talentText`Increases the damage your deal with one-handed melee weapons by ${[
           2,
           4,
@@ -409,7 +409,7 @@ export const data: TalentData = {
       },
       "Precision": {
         name: "Precision", 
-        pos: "c4", 
+        pos: "c3", 
         icon: icons["ability_rogue_ambush"], 
         maxRank: 5,
         reqPoints: 10,
@@ -437,7 +437,7 @@ export const data: TalentData = {
       },
       "Improved Concentration Aura": {
         name: "Improved Concentration Aura", 
-        pos: "d3", 
+        pos: "d4", 
         icon: icons["spell_holy_mindsooth"], 
         maxRank: 3, 
         reqPoints: 15, 
@@ -453,10 +453,10 @@ export const data: TalentData = {
       },
       "Second Wind": {
         name: "Second Wind", 
-        pos: "d4", 
+        pos: "c4", 
         icon: icons["inv_jewelry_talisman_06"], 
         maxRank: 5, 
-        reqPoints: 15, 
+        reqPoints: 10, 
         description: talentText`Gives you a ${[
           20,
           40,
@@ -489,10 +489,10 @@ export const data: TalentData = {
       },
       "Unbreakability": {
         name: "Unbreakability", 
-        pos: "e3", 
+        pos: "d3", 
         icon: icons["inv_shield_20"], 
         maxRank: 3, 
-        reqPoints: 20, 
+        reqPoints: 15, 
         description: talentText`Increases your total Health by ${[
           5,
           10,
@@ -540,7 +540,9 @@ export const data: TalentData = {
         pos: "f3", 
         icon: icons["spell_holy_blessingofstrength"], 
         maxRank: 5, 
-        reqPoints: 25, 
+        reqPoints: 25,
+        prereq: "One-Handed Weapon Specialization", 
+        arrows: [{ dir: "down", from: "e3", to: "f3" }], 
         description: talentText`Gives you a ${[
           4,
           8,
@@ -678,10 +680,10 @@ export const data: TalentData = {
         icon: icons["spell_holy_eyeforaneye"], 
         maxRank: 2, 
         reqPoints: 15, 
-        description: talentText`All spell criticals against you cause ${[
-          15,
-          30,
-        ]}% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.`, 
+        description: talentText`All spell hits against you cause ${[
+          3,
+          5,
+        ]}% of the damage taken to the caster as well.`, 
       },
       "Benediction": {
         name: "Benediction", 

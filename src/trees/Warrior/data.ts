@@ -19,11 +19,11 @@ export const data: TalentData = {
         maxRank: 5,
         reqPoints: 0,
         description: talentText`Increases the critical strike chance of your Heroic Strike ability by ${[
-          3,
+          2,
+          4,
           6,
-          9,
-          12,
-          15,
+          8,
+          10,
         ]}%.`,
       },
       "Tactical Mastery": {
@@ -45,8 +45,8 @@ export const data: TalentData = {
         maxRank: 2,
         reqPoints: 0,
         description: talentText`Increases your Parry chance by ${[
-          3,
-          6,
+          2,
+          4,
         ]}%.`,
       },
       "Improved Charge": {
@@ -609,7 +609,7 @@ export const data: TalentData = {
         ]} rage points and gives it a ${[
           50,
           100,
-        ]}% chance to silence the target for 6 sec.`,
+        ]}% chance to silence the target for 4 sec.`,
       },
       "Improved Revenge": {
         name: "Improved Revenge",

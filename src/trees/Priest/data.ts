@@ -142,7 +142,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Martyrdom", 
         arrows: [{dir: "down", from: "b4", to: "c4" }], 
-        description: talentText`While active, you no longer lose casting time from taking damage and you are immune to Silence and Interrupt mechanics. Lasts 10 sec.`, 
+        description: talentText`While active, you no longer lose casting time from taking damage and you are immune to Silence and Interrupt mechanics. Lasts 5 seconds.`, 
       },
       "Stratagem": {
         name: "Stratagem", 

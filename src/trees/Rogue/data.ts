@@ -160,9 +160,9 @@ export const data: TalentData = {
         maxRank: 3, 
         reqPoints: 15, 
         description: talentText`Increases the damage dealt by your Garrote and Rupture abilities by ${[
-          15,
+          10,
+          20,
           30,
-          45,
         ]}%.`, 
       },
       "Vitality": {
@@ -379,7 +379,7 @@ export const data: TalentData = {
         ]} Energy and gives it a ${[
           50,
           100,
-        ]}% chance to silence the target for 3 seconds.`, 
+        ]}% chance to silence the target for 4 seconds.`, 
       },
       "Riposte": {
         name: "Riposte", 
@@ -389,7 +389,7 @@ export const data: TalentData = {
         reqPoints: 10, 
         prereq: "Deflection", 
         arrows: [{ dir: "down", from: "b2", to: "c2" }], 
-        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 seconds.`, 
+        description: talentText`A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 5 seconds.`, 
       },
       "Dual Wield Specialization": {
         name: "Dual Wield Specialization", pos: "c3", 

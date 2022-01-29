@@ -238,12 +238,12 @@ export const data: TalentData = {
         icon: icons["moonfury"],
         maxRank: 5,
         reqPoints: 25,
-        description: talentText`Increases the damage done by your Starfire, Moonfire and Wrath spells by ${[
-          2,
-          4,
+        description: talentText`Increases the damage done by your Arcane spells by ${[
+          3,
           6,
-          8,
-          10,
+          9,
+          12,
+          15,
         ]}%`,
       },
       

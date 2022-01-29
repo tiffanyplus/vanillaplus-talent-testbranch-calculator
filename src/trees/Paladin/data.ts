@@ -94,7 +94,7 @@ export const data: TalentData = {
         pos: "a4", 
         icon: icons["spell_holy_layonhands"], 
         maxRank: 2, 
-        reqPoints: 5, 
+        reqPoints: 0, 
         description: talentText`Gives the target of your Lay on Hands spell a 30% bonus to their resistance and armor value from items for${[
           60,
           120

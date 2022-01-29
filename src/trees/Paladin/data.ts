@@ -130,7 +130,7 @@ export const data: TalentData = {
         pos: "d2", 
         icon: icons["spell_holy_healingaura"], 
         maxRank: 3, 
-        reqPoints: 10, 
+        reqPoints: 15, 
         description: talentText`Increases the range of your Judgements, Exorcism, and Hammer of Wrath spells by ${[
           2,
           4,
@@ -164,7 +164,7 @@ export const data: TalentData = {
         pos: "b2", 
         icon: icons["spell_holy_purifyingpower"], 
         maxRank: 3, 
-        reqPoints: 15,  
+        reqPoints: 5,  
         description: talentText`Reduces the Mana cost of your Cleanse, Purify, Consecration, Exorcism, Holy Wrath, and Hammer of Wrath spells by ${[
           10,
           20,

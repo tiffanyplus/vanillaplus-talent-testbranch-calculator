@@ -194,13 +194,13 @@ export const data: TalentData = {
         reqPoints: 20,
         description: talentText`Your attacks strike an additional nearby opponent. Lasts 20 sec.`,
       },
-      "Two-Handed Weapong Specialization": {
+      "Two-Handed Weapon Specialization": {
         name: "Two-Handed Weapon Specialization",
         pos: "e3",
         icon: icons["inv_axe_09"],
         maxRank: 5,
         reqPoints: 20,
-        description: talentText`Indreases the damage you deal with two-handed melee weapons by ${[
+        description: talentText`Increases the damage you deal with two-handed melee weapons by ${[
           2,
           4,
           6,
@@ -655,7 +655,7 @@ export const data: TalentData = {
           12,
           24,
           36,
-        ]}damage to the attacker. Damage scales with your level.`,
+        ]} damage to the attacker. Damage scales with your level.`,
       },
       "Concussion Blow": {
         name: "Concussion Blow",

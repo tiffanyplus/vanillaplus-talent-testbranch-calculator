@@ -456,13 +456,7 @@ export const data: TalentData = {
           12,
           16,
           20,
-        ]}% of your opponents armor and gives you a ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}% chance to stun the target for 1 sec when carrying a gun`, 
+        ]}% of your opponents armor when carrying a Gun.`, 
       },
       "Snapshot": {
         name: "Snapshot", 
@@ -774,7 +768,7 @@ export const data: TalentData = {
         reqPoints: 20, 
         prereq: "Melee Specialization", 
         arrows: [{ dir: "down", from: "c2", to: "e2" }], 
-        description: talentText`Wild strike that inflicts weapon damage and grants bonus effects dependent on your active aspect.\n\nAspect of the Beast - Savage Blow hits additional enemies near the target.\n\nAspect of the Cheetah - Makes you immune to movement impairing effects for 5 seconds.\n\nAspect of the Hawk - Increases the range of Savage Blow by 5 yards.\n\nAspect of the Monkey - Allows you to use Mongoose Bite.\n\nAspect of the Pack - Reduces the cost of all spells and abilities of all nearby party members by 10% for 5 seconds.\n\nAspect of the Wild - Regenerate 5% of your total Health over 25 seconds. Stacks up to 5 times.`, 
+        description: talentText`Wild strike with both weapons that grants bonus effects dependent on your active Aspect.\n\nAspect of the Beast:\nSavage Blow hits additional enemies near the target.\n\nAspect of the Cheetah:\nMakes you immune to movement impairing effects for 5 seconds.\n\nAspect of the Hawk:\nIncreases the range of Savage Blow by 5 yards.\n\nAspect of the Monkey:\nAllows you to use Mongoose Bite.\n\nAspect of the Pack:\nReduces the cost of all spells and abilities of all nearby party members by 10% for 20 seconds.\n\nAspect of the Wild:\nRegenerate 5% of your total Health over 25 seconds. Stacks up to 5 times.`, 
       },
       "Wyvern Sting": {
         name: "Wyvern Sting", 

@@ -679,8 +679,8 @@ export const data: TalentData = {
         maxRank: 2, 
         reqPoints: 15, 
         description: talentText`All spell hits against you cause ${[
-          3,
           5,
+          10,
         ]}% of the damage taken to the caster as well.`, 
       },
       "Benediction": {

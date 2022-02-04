@@ -222,8 +222,8 @@ export const data: TalentData = {
         prereq: "Arcane Power", 
         arrows: [{ dir: "right", from: "e2", to: "e3" }], 
         description: talentText`Increases the critical strike damage bonus of your Arcane spells by ${[
-          25,
           50,
+          100,
         ]}%.`, 
       },
       "Arcane Mind": {

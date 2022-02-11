@@ -461,7 +461,7 @@ export const data: TalentData = {
           60,
           80,
           100,
-        ]}% chance to generate 1% of your total Mana after being healed.`, 
+        ]}% chance to generate Mana equal to 10% of healing taken.`, 
       },
       "Improved Righteous Fury": {
         name: "Improved Righteous Fury", 

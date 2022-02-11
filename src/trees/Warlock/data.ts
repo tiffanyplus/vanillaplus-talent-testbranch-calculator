@@ -226,11 +226,11 @@ export const data: TalentData = {
         prereq: "Nightfall",
         arrows: [{ dir: "down", from: "d2", to: "f2"}],
         description: talentText`Gives your Affliction spells an additional ${[
+          5,
           10,
+          15,
           20,
-          30,
-          40,
-          50,
+          25,
         ]}% chance to resist dispel effects and increases the damage done by your Curse of Doom by ${[
           20,
           40,
@@ -349,7 +349,7 @@ export const data: TalentData = {
         icon: icons["spell_shadow_shadowworddominate"],
         maxRank: 5,
         reqPoints: 5,
-        description: talentText`Increases te damage done by your Imp, Voidwalker, Succubus and felhunter by ${[
+        description: talentText`Increases the damage done by your Imp, Voidwalker, Succubus and felhunter by ${[
           3,
           6,
           9,
@@ -398,7 +398,7 @@ export const data: TalentData = {
         icon: icons["inv_misc_horn_02"],
         maxRank: 5,
         reqPoints: 10,
-        description: talentText`Increases the melee and spell critical strike chance of your Imp, Coidwalker, Succubus, and felhunter by ${[
+        description: talentText`Increases the melee and spell critical strike chance of your Imp, Voidwalker, Succubus, and felhunter by ${[
           4,
           8,
           12,

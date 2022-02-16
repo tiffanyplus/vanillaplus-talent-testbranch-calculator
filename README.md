@@ -10,6 +10,6 @@ Usable talent calculator hosted here: https://hawaiisa.github.io/vanillaplus-tal
 - Authentic, raster-based game assets used for UI
 
 ## Wishlist / todo  
-
-- Have values scale based on the "Required level" for spent talent points.  
+ 
 - Better tooltip positioning for mobile layout.
+- Make it impossible to remove talents below the needed amount of talent points according to the selected tiers.

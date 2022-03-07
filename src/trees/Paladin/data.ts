@@ -324,7 +324,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_vindication"], 
         maxRank: 3, 
         reqPoints: 5, 
-        description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's stats by ${[
+        description: talentText`Gives the Paladin's damaging melee attacks a chance to reduce the target's stats by 10% for ${[
           10,
           20,
           30,
@@ -398,11 +398,11 @@ export const data: TalentData = {
         maxRank: 5, 
         reqPoints: 20, 
         description: talentText`Increases the damage your deal with one-handed melee weapons by ${[
-          2,
-          4,
+          3,
           6,
-          8,
-          10,
+          9,
+          12,
+          15,
         ]}%.`, 
       },
       "Precision": {
@@ -582,7 +582,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_retributionaura"], 
         maxRank: 5, 
         reqPoints: 0, 
-        description: talentText`Increases your chance to get a critical strike with all attacks and spells by ${[
+        description: talentText`Increases your chance to get a critical strike with attacks and offensive spells by ${[
           1,
           2,
           3,
@@ -659,7 +659,7 @@ export const data: TalentData = {
         icon: icons["ability_warrior_innerrage"], 
         maxRank: 1, 
         reqPoints: 10, 
-        description: talentText`Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only on Seal can be active on the Paladin at any one time. Lasts 30 seconds. Unleashing this Seal's energy will judge an enemy, instantly causing 0 Holy damage, 143 if the target is stunned, incapacitated or disoriented.`, 
+        description: talentText`Gives the Paladin a chance to deal additional Holy damage equal to 50% of normal weapon damage. Only on Seal can be active on the Paladin at any one time. Lasts 30 seconds. Unleashing this Seal's energy will judge an enemy, instantly causing 0 Holy damage, 143 if the target is stunned, incapacitated or disoriented.`, 
       },
       "Pursuit of Justice": {
         name: "Pursuit of Justice", 
@@ -819,7 +819,7 @@ export const data: TalentData = {
         icon: icons["spell_holy_crusaderstrike2"], 
         maxRank: 1, 
         reqPoints: 30, 
-        description: talentText`A strike that deals weapon damage and consecrates your weapon, increasing your attack speed by 5% for 30 seconds, stacking up to 7 times.`, 
+        description: talentText`A strike that deals weapon damage and consecrates your weapon, increasing your attack speed by 5% for 15 seconds, stacking up to 5 times.`, 
       },
     },
   },

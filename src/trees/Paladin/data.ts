@@ -105,7 +105,7 @@ export const data: TalentData = {
       },
       "Spiritual Focus": {
         name: "Spiritual Focus", 
-        pos: "c4", 
+        pos: "c1", 
         icon: icons["spell_arcane_blink"], 
         maxRank: 3, 
         reqPoints: 10, 

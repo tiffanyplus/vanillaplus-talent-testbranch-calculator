@@ -25,26 +25,12 @@ export const data: TalentData = {
         ]}%.`, 
       },
       "Divine Strength": {
-        name: "Divine Strength", 
+        name: "Divine Power", 
         pos: "a2", 
-        icon: icons["ability_golemthunderclap"], 
+        icon: icons["spell_holy_prayerofspirit"], 
         maxRank: 5, 
         reqPoints: 0, 
-        description: talentText`Increases your Strength by ${[
-          2,
-          4,
-          6,
-          8,
-          10,
-        ]}%.`, 
-      },
-      "Divine Intellect": {
-        name: "Divine Intellect", 
-        pos: "a3", 
-        icon: icons["spell_nature_sleep"], 
-        maxRank: 5, 
-        reqPoints: 0, 
-        description: talentText`Increase you total Intellect by ${[
+        description: talentText`Increases your Strength and intellect by ${[
           2,
           4,
           6,

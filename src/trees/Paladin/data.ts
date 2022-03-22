@@ -24,7 +24,7 @@ export const data: TalentData = {
           15,
         ]}%.`, 
       },
-      "Divine Strength": {
+      "Divine Power": {
         name: "Divine Power", 
         pos: "a2", 
         icon: icons["spell_holy_prayerofspirit"], 

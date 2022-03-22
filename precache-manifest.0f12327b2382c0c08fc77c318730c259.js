@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ea47743af523e4758dab202d7b3b052",
-    "url": "/vanillaplus-talent-calculator/index.html"
+    "url": "/vanillaplus-talent-testbranch-calculator/index.html"
   },
   {
     "revision": "016ad83e34513d54d5d9",
